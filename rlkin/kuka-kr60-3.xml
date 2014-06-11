@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rlkin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="rlkin.xsd">
+	<puma>
+		<manufacturer>Kuka</manufacturer>
+		<name>KR 60-3</name>
+		<world id="world">
+			<rotation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</rotation>
+			<translation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</translation>
+		</world>
+		<transform id="base">
+			<frame>
+				<a idref="world"/>
+				<b idref="link0"/>
+			</frame>
+			<rotation>
+				<x>180</x>
+				<y>0</y>
+				<z>0</z>
+			</rotation>
+			<translation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</translation>
+		</transform>
+		<link id="link0">
+			<ignore/>
+			<ignore idref="link1"/>
+		</link>
+		<revolute id="joint0">
+			<frame>
+				<a idref="link0"/>
+				<b idref="link1"/>
+			</frame>
+			<dh>
+				<d>-0.815</d>
+				<theta>0</theta>
+				<a>0.35</a>
+				<alpha>90</alpha>
+			</dh>
+			<max>185</max>
+			<min>-185</min>
+			<speed>128</speed>
+		</revolute>
+		<link id="link1">
+			<ignore idref="link0"/>
+			<ignore idref="link2"/>
+		</link>
+		<revolute id="joint1">
+			<frame>
+				<a idref="link1"/>
+				<b idref="link2"/>
+			</frame>
+			<dh>
+				<d>0</d>
+				<theta>0</theta>
+				<a>0.85</a>
+				<alpha>0</alpha>
+			</dh>
+			<max>35</max>
+			<min>-135</min>
+			<speed>102</speed>
+		</revolute>
+		<link id="link2">
+			<ignore idref="link1"/>
+			<ignore idref="link3"/>
+			<ignore idref="link4"/>
+		</link>
+		<revolute id="joint2">
+			<frame>
+				<a idref="link2"/>
+				<b idref="link3"/>
+			</frame>
+			<dh>
+				<d>0</d>
+				<theta>-90</theta>
+				<a>0.145</a>
+				<alpha>90</alpha>
+			</dh>
+			<max>158</max>
+			<min>-120</min>
+			<speed>128</speed>
+		</revolute>
+		<link id="link3">
+			<ignore idref="link2"/>
+			<ignore idref="link4"/>
+		</link>
+		<revolute id="joint3">
+			<frame>
+				<a idref="link3"/>
+				<b idref="link4"/>
+			</frame>
+			<dh>
+				<d>-0.82</d>
+				<theta>0</theta>
+				<a>0</a>
+				<alpha>-90</alpha>
+			</dh>
+			<max>350</max>
+			<min>-350</min>
+			<speed>260</speed>
+		</revolute>
+		<link id="link4">
+			<ignore idref="link2"/>
+			<ignore idref="link3"/>
+			<ignore idref="link5"/>
+			<ignore idref="link6"/>
+		</link>
+		<revolute id="joint4">
+			<frame>
+				<a idref="link4"/>
+				<b idref="link5"/>
+			</frame>
+			<dh>
+				<d>0</d>
+				<theta>0</theta>
+				<a>0</a>
+				<alpha>90</alpha>
+			</dh>
+			<max>119</max>
+			<min>-119</min>
+			<speed>245</speed>
+		</revolute>
+		<link id="link5">
+			<ignore idref="link4"/>
+			<ignore idref="link6"/>
+		</link>
+		<revolute id="joint5">
+			<frame>
+				<a idref="link5"/>
+				<b idref="link6"/>
+			</frame>
+			<dh>
+				<d>-0.17</d>
+				<theta>0</theta>
+				<a>0</a>
+				<alpha>-180</alpha>
+			</dh>
+			<max>350</max>
+			<min>-350</min>
+			<speed>322</speed>
+		</revolute>
+		<link id="link6">
+			<ignore idref="link4"/>
+			<ignore idref="link5"/>
+		</link>
+		<transform id="tool">
+			<frame>
+				<a idref="link6"/>
+				<b idref="tcp"/>
+			</frame>
+			<rotation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</rotation>
+			<translation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</translation>
+		</transform>
+		<frame id="tcp"/>
+	</puma>
+</rlkin>

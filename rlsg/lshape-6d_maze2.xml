@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rlsg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="rlsg.xsd">
+	<scene href="lshape-6d_maze2.wrl">
+		<model name="lshape-6d">
+			<body name="link0" />
+			<body name="link1" />
+			<body name="link2" />
+			<body name="link3" />
+			<body name="link4" />
+			<body name="link5" />
+			<body name="body1" />
+		</model>
+		<model name="maze2">
+			<body name="" />
+		</model>
+	</scene>
+</rlsg>
+

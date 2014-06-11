@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rlplan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="rlplan.xsd">
+	<addRrtConCon>
+		<duration>1200</duration>
+		<goal>
+			<q>20</q>
+			<q>20</q>
+			<q>20</q>
+			<q unit="deg">0</q>
+			<q unit="deg">0</q>
+			<q unit="deg">0</q>
+		</goal>
+		<model>
+			<kinematics href="../rlkin/1enu.xml"/>
+			<model>0</model>
+			<scene href="../rlsg/1enu.xml"/>
+		</model>
+		<start>
+			<q>-0.4</q>
+			<q>0.1</q>
+			<q>0</q>
+			<q unit="deg">0</q>
+			<q unit="deg">0</q>
+			<q unit="deg">0</q>
+		</start>
+		<viewer>
+			<background>
+				<r>255</r>
+				<g>255</g>
+				<b>255</b>
+			</background>
+			<camera>
+				<position>
+					<x>-50</x>
+					<y>0</y>
+					<z>100</z>
+				</position>
+				<target>
+					<x>-4.7702</x>
+					<y>5.25755</y>
+					<z>2.9653</z>
+				</target>
+				<up>
+					<x>1</x>
+					<y>0</y>
+					<z>0</z>
+				</up>
+			</camera>
+			<delta unit="deg">1</delta>
+			<model>
+				<kinematics href="../rlkin/1enu.xml"/>
+				<model>0</model>
+				<scene href="../rlsg/1enu.xml"/>
+			</model>
+			<size>
+				<height>768</height>
+				<width>1024</width>
+			</size>
+			<wait/>
+		</viewer>
+		<delta unit="deg">1.0</delta>
+		<epsilon>1e-9</epsilon>
+		<uniformSampler/>
+		<alpha>0.05</alpha>
+		<lower unit="deg">200</lower>
+		<radius unit="deg">2000</radius>
+	</addRrtConCon>
+</rlplan>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rlplan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="rlplan.xsd">
+	<prm>
+		<duration>120</duration>
+		<goal>
+			<q unit="deg">50</q>
+			<q unit="deg">-50</q>
+		</goal>
+		<model>
+			<kinematics href="../rlkin/example.xml"/>
+			<model>0</model>
+			<scene href="../rlsg/example.xml"/>
+		</model>
+		<start>
+			<q unit="deg">-90</q>
+			<q unit="deg">50</q>
+		</start>
+		<viewer>
+			<background>
+				<r>0</r>
+				<g>0</g>
+				<b>0</b>
+			</background>
+			<camera>
+				<position>
+					<x>0</x>
+					<y>0.1</y>
+					<z>2.25</z>
+				</position>
+				<scale>0.771289984</scale>
+				<target>
+					<x>0</x>
+					<y>0.1</y>
+					<z>0</z>
+				</target>
+				<up>
+					<x>0</x>
+					<y>0</y>
+					<z>1</z>
+				</up>
+			</camera>
+			<cspace>
+				<delta unit="deg">5</delta>
+				<scale>100</scale>
+				<x>0</x>
+				<y>1</y>
+			</cspace>
+			<delta unit="deg">1</delta>
+			<model>
+				<kinematics href="../rlkin/example.xml"/>
+				<model>0</model>
+				<scene href="../rlsg/example.xml"/>
+			</model>
+			<size>
+				<height>336</height>
+				<width>429</width>
+			</size>
+			<wait/>
+		</viewer>
+		<uniformSampler/>
+		<recursiveVerifier>
+			<delta unit="deg">1</delta>
+		</recursiveVerifier>
+	</prm>
+</rlplan>

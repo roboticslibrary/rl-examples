@@ -1,0 +1,48 @@
+#VRML V2.0 utf8
+Transform {
+	children [
+		DEF piano Transform {
+			rotation 0 0 1 0.785398
+			translation -4 -3.5 0.66
+			children [
+				DEF link0 Transform {
+					children [
+					]
+				}
+				DEF link1 Transform {
+					children [
+					]
+				}
+				DEF link2 Transform {
+					children [
+					]
+				}
+				DEF link3 Transform {
+					children [
+					]
+				}
+				DEF link4 Transform {
+					children [
+					]
+				}
+				DEF link5 Transform {
+					children [
+					]
+				}
+				DEF body1 Transform {
+					children [
+						Inline {
+							url "piano/piano.wrl"
+						}
+					]
+				}			]
+		}
+		DEF room Transform {
+			children [
+				Inline {
+					url "piano/room.wrl"
+				}
+			]
+		}
+	]
+}

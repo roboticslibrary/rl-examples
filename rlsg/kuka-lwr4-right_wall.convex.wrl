@@ -1,0 +1,15 @@
+#VRML V2.0 utf8
+Transform {
+	children [
+		DEF kuka-lwr4-right Transform {
+			translation -0.625 0 0
+			children [
+				Inline {
+					url "kuka-lwr4.convex/kuka-lwr4-right.wrl"
+				}			]
+		}
+		DEF wall Inline {
+			url "wall.wrl"
+		}	]
+}
+

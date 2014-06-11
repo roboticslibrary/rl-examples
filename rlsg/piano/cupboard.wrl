@@ -1,0 +1,140 @@
+#VRML V2.0 utf8
+Transform {
+	children [
+		DEF bottom Transform {
+			translation 0 0 0.01
+			children [
+				Shape {
+					appearance Appearance {
+						material DEF wood Material {
+							diffuseColor 1.000000 0.909804 0.784314
+							emissiveColor 0.080000 0.072784 0.062745
+							specularColor 0.010000 0.009098 0.007843
+							shininess 0.010000
+						}
+					}
+					geometry Box {
+						size 1 0.3 0.02
+					}
+				}
+			]
+		}
+		DEF top Transform {
+			translation 0 0 1.99
+			children [
+				Shape {
+					appearance Appearance {
+						material USE wood
+					}
+					geometry Box {
+						size 1 0.3 0.02
+					}
+				}
+			]
+		}
+		DEF left Transform {
+			translation -0.5 0 1
+			children [
+				Shape {
+					appearance Appearance {
+						material USE wood
+					}
+					geometry Box {
+						size 0.02 0.3 2
+					}
+				}
+			]
+		}
+		DEF right Transform {
+			translation 0.5 0 1
+			children [
+				Shape {
+					appearance Appearance {
+						material USE wood
+					}
+					geometry Box {
+						size 0.02 0.3 2
+					}
+				}
+			]
+		}
+		DEF back Transform {
+			translation 0 0.14 1
+			children [
+				Shape {
+					appearance Appearance {
+						material USE wood
+					}
+					geometry Box {
+						size 1 0.02 2
+					}
+				}
+			]
+		}
+		DEF shelf1 Transform {
+			translation 0 0 0.5
+			children [
+				Shape {
+					appearance Appearance {
+						material USE wood
+					}
+					geometry Box {
+						size 1 0.3 0.02
+					}
+				}
+			]
+		}
+		DEF shelf2 Transform {
+			translation 0 0 1
+			children [
+				Shape {
+					appearance Appearance {
+						material USE wood
+					}
+					geometry Box {
+						size 1 0.3 0.02
+					}
+				}
+			]
+		}
+		DEF shelf3 Transform {
+			translation 0 0 1.5
+			children [
+				Shape {
+					appearance Appearance {
+						material USE wood
+					}
+					geometry Box {
+						size 1 0.3 0.02
+					}
+				}
+			]
+		}
+		DEF door1 Transform {
+			translation -0.25 -0.16 1
+			children [
+				Shape {
+					appearance Appearance {
+						material USE wood
+					}
+					geometry Box {
+						size 0.4975 0.02 1.98
+					}
+				}
+			]
+		}
+		DEF door2 Transform {
+			translation 0.25 -0.16 1
+			children [
+				Shape {
+					appearance Appearance {
+						material USE wood
+					}
+					geometry Box {
+						size 0.4975 0.02 1.98
+					}
+				}
+			]
+		}
+	]
+}

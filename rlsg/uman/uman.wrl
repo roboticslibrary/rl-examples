@@ -1,0 +1,96 @@
+#VRML V2.0 utf8
+Transform {
+	children [
+		DEF link0 Transform {
+			children [
+				Inline {
+					url "dummy.wrl"
+				}
+			]
+		}
+		DEF link1 Transform {
+			children [
+				Inline {
+					url "dummy.wrl"
+				}
+			]
+		}
+		DEF link2 Transform {
+			children [
+				Inline {
+					url "dummy.wrl"
+				}
+			]
+		}
+		DEF link3 Transform {
+			children [
+				Inline {
+					url "../nomad-xr4000/link0.wrl"
+				}
+				Inline {
+					url "link3b.wrl"
+				}
+			]
+		}
+		DEF link4 Transform {
+			rotation 1 0 0 -1.570796
+			translation 0 0 1.196
+			children [
+				Inline {
+					url "../barrett-wam/link1.wrl"
+				}
+			]
+		}
+		DEF link5 Transform {
+			translation 0 0 1.196
+			children [
+				Inline {
+					url "../barrett-wam/link2.wrl"
+				}
+			]
+		}
+		DEF link6 Transform {
+			rotation 1 0 0 -1.570796
+			translation 0.045 0 1.746
+			children [
+				Inline {
+					url "../barrett-wam/link3.wrl"
+				}
+			]
+		}
+		DEF link7 Transform {
+			translation 0 0 1.746
+			children [
+				Inline {
+					url "../barrett-wam/link4.wrl"
+				}
+			]
+		}
+		DEF link8 Transform {
+			rotation 1 0 0 -1.570796
+			translation 0 0 2.046
+			children [
+				Inline {
+					url "../barrett-wam/link5.wrl"
+				}
+			]
+		}
+		DEF link9 Transform {
+			translation 0 0 2.046
+			children [
+				Inline {
+					url "../barrett-wam/link6.wrl"
+				}
+			]
+		}
+		DEF link10 Transform {
+			translation 0 0 2.106
+			children [
+				Inline {
+					url "../barrett-wam/link7.wrl"
+				}
+			]
+		}
+	]
+}
+

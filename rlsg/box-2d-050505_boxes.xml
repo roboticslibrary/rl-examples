@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rlsg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="rlsg.xsd">
+	<scene href="box-2d-050505_boxes.wrl">
+		<model name="box-2d-050505">
+			<body name="link0" />
+			<body name="link1" />
+			<body name="body1" />
+		</model>
+		<model name="boxes">
+			<body name=""/>
+		</model>
+	</scene>
+</rlsg>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rlplan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="rlplan.xsd">
+	<eet>
+		<duration>1200</duration>
+		<goal>
+			<q unit="deg">-22</q>
+			<q unit="deg">-85</q>
+			<q unit="deg">0</q>
+			<q unit="deg">0</q>
+			<q unit="deg">0</q>
+			<q unit="deg">0</q>
+			<q unit="deg">0</q>
+		</goal>
+		<model>
+			<kinematics href="../rlkin/kuka-lwr4-right.xml">
+				<world>
+					<rotation>
+						<x>0</x>
+						<y>0</y>
+						<z>0</z>
+					</rotation>
+					<translation>
+						<x>-0.625</x>
+						<y>0</y>
+						<z>0</z>
+					</translation>
+				</world>
+			</kinematics>
+			<model>0</model>
+			<scene href="../rlsg/kuka-lwr4-right_wall.convex.xml"/>
+		</model>
+		<start>
+			<q unit="deg">21</q>
+			<q unit="deg">-85</q>
+			<q unit="deg">0</q>
+			<q unit="deg">0</q>
+			<q unit="deg">0</q>
+			<q unit="deg">0</q>
+			<q unit="deg">0</q>
+		</start>
+		<viewer>
+			<background>
+				<r>0</r>
+				<g>0</g>
+				<b>0</b>
+			</background>
+			<camera>
+				<position>
+					<x>-1.25</x>
+					<y>-1.25</y>
+					<z>2.5</z>
+				</position>
+				<scale>1</scale>
+				<target>
+					<x>0</x>
+					<y>0</y>
+					<z>0.25</z>
+				</target>
+				<up>
+					<x>0</x>
+					<y>0</y>
+					<z>1</z>
+				</up>
+			</camera>
+			<delta unit="deg">1</delta>
+			<model>
+				<kinematics href="../rlkin/kuka-lwr4-right.xml">
+					<world>
+						<rotation>
+							<x>0</x>
+							<y>0</y>
+							<z>0</z>
+						</rotation>
+						<translation>
+							<x>-0.625</x>
+							<y>0</y>
+							<z>0</z>
+						</translation>
+					</world>
+				</kinematics>
+				<model>0</model>
+				<scene href="../rlsg/kuka-lwr4-right_wall.xml"/>
+			</model>
+			<size>
+				<height>768</height>
+				<width>1024</width>
+			</size>
+			<wait/>
+		</viewer>
+		<delta unit="deg">1</delta>
+		<epsilon>1e-9</epsilon>
+		<uniformSampler/>
+		<explorer>
+			<distance/>
+			<goal>
+				<start>
+					<frame>1</frame>
+				</start>
+			</goal>
+			<radius>0.05</radius>
+			<range>0.92</range>
+			<samples>500</samples>
+			<start>
+				<start>
+					<tcp/>
+				</start>
+			</start>
+		</explorer>
+		<explorer>
+			<distance/>
+			<goal>
+				<goal>
+					<tcp/>
+				</goal>
+			</goal>
+			<radius>0.05</radius>
+			<range>0.92</range>
+			<samples>500</samples>
+			<start>
+				<goal>
+					<frame>1</frame>
+				</goal>
+			</start>
+		</explorer>
+		<max>
+			<x>2.5</x>
+			<y>2.5</y>
+			<z>2.5</z>
+		</max>
+		<min>
+			<x>-2.5</x>
+			<y>-2.5</y>
+			<z>0</z>
+		</min>
+	</eet>
+</rlplan>

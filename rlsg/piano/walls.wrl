@@ -1,0 +1,179 @@
+#VRML V2.0 utf8
+Transform {
+	children [
+		DEF floor Transform {
+			translation 0 0 -0.005
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+						}
+					}
+					geometry Box {
+						size 10 10 0.01
+					}
+				}
+			]
+		}
+		DEF ceiling Transform {
+			translation 0 0 3.005
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							transparency 1
+						}
+					}
+					geometry Box {
+						size 10 10 0.01
+					}
+				}
+			]
+		}
+		DEF north Transform {
+			translation 5.005 0 1.5
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							transparency 0.9
+						}
+					}
+					geometry Box {
+						size 0.01 10 3
+					}
+				}
+			]
+		}
+		DEF south Transform {
+			translation -5.005 0 1.5
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							transparency 0.9
+						}
+					}
+					geometry Box {
+						size 0.01 10 3
+					}
+				}
+			]
+		}
+		DEF west Transform {
+			translation 0 5.005 1.5
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							transparency 0.9
+						}
+					}
+					geometry Box {
+						size 10 0.01 3
+					}
+				}
+			]
+		}
+		DEF east Transform {
+			translation 0 -5.005 1.5
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							transparency 0.9
+						}
+					}
+					geometry Box {
+						size 10 0.01 3
+					}
+				}
+			]
+		}
+		Transform {
+			translation -1.5 -1.5 1.5
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							ambientIntensity 1
+							diffuseColor 1 1 1
+							specularColor 1 1 1
+						}
+					}
+					geometry Box {
+						size 7 0.2 3
+					}
+				}
+			]
+		}
+		Transform {
+			translation 4.2 -1.5 1.5
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							ambientIntensity 1
+							diffuseColor 1 1 1
+							specularColor 1 1 1
+						}
+					}
+					geometry Box {
+						size 1.6 0.2 3
+					}
+				}
+			]
+		}
+		Transform {
+			translation 2.7 -1.5 2.5
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							ambientIntensity 1
+							diffuseColor 1 1 1
+							specularColor 1 1 1
+						}
+					}
+					geometry Box {
+						size 1.4 0.2 1
+					}
+				}
+			]
+		}
+		Transform {
+			translation -1 2.5 1.5
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							ambientIntensity 1
+							diffuseColor 1 1 1
+							specularColor 1 1 1
+						}
+					}
+					geometry Box {
+						size 0.2 5 3
+					}
+				}
+			]
+		}
+		Transform {
+			translation -1 -0.7 2.5
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							ambientIntensity 1
+							diffuseColor 1 1 1
+							specularColor 1 1 1
+						}
+					}
+					geometry Box {
+						size 0.2 1.4 1
+					}
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rlplan>
+	<eet>
+		<duration>1200</duration>
+		<goal>
+			<q>-4.25</q>
+			<q>3</q>
+			<q>0.7</q>
+			<q unit="deg">0</q>
+			<q unit="deg">0</q>
+			<q unit="deg">90</q>
+		</goal>
+		<model>
+			<kinematics href="../rlkin/piano.xml"/>
+			<model>0</model>
+			<scene href="../rlsg/piano_room.convex.xml"/>
+		</model>
+		<start>
+			<q>-4</q>
+			<q>-3.5</q>
+			<q>0.7</q>
+			<q unit="deg">0</q>
+			<q unit="deg">0</q>
+			<q unit="deg">45</q>
+		</start>
+		<viewer>
+			<background>
+				<r>0</r>
+				<g>0</g>
+				<b>0</b>
+			</background>
+			<delta unit="deg">1</delta>
+			<model>
+				<kinematics href="../rlkin/piano.xml"/>
+				<model>0</model>
+				<scene href="../rlsg/piano_room.xml"/>
+			</model>
+			<size>
+				<height>768</height>
+				<width>1024</width>
+			</size>
+			<wait/>
+		</viewer>
+		<delta unit="deg">1</delta>
+		<epsilon>1e-9</epsilon>
+		<uniformSampler>
+		</uniformSampler>
+		<!--<alpha>0.01</alpha>-->
+		<!--<beta>1.5</beta>-->
+		<explorer>
+			<space/>
+			<goal>
+				<goal>
+					<tcp/>
+				</goal>
+			</goal>
+			<radius>0.25</radius>
+			<range>15</range>
+			<samples>100</samples>
+			<start>
+				<start>
+					<tcp/>
+				</start>
+			</start>
+		</explorer>
+		<!--<gamma>18</gamma>-->
+		<max>
+			<x>5</x>
+			<y>5</y>
+			<z>3</z>
+		</max>
+		<min>
+			<x>-5</x>
+			<y>-5</y>
+			<z>0</z>
+		</min>
+	</eet>
+</rlplan>

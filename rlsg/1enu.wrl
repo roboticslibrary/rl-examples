@@ -1,0 +1,44 @@
+#VRML V2.0 utf8
+Transform {
+	children [
+		DEF ligand Transform {
+			children [
+				DEF link0 Transform {
+					children [
+					]
+				}
+				DEF link1 Transform {
+					children [
+					]
+				}
+				DEF link2 Transform {
+					children [
+					]
+				}
+				DEF link3 Transform {
+					children [
+					]
+				}
+				DEF link4 Transform {
+					children [
+					]
+				}
+				DEF link5 Transform {
+					children [
+					]
+				}
+				DEF body1 Inline {
+					url "1enu/ligand.wrl"
+				}
+			]
+		}
+		DEF protein Transform {
+			translation -3 8.15 -0.8
+			children[
+				Inline {
+					url "1enu/protein.wrl"
+				}
+			]
+		}
+	]
+}

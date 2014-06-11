@@ -1,0 +1,317 @@
+#VRML V2.0 utf8
+
+Background {
+	skyColor 1 1 1
+}
+OrthographicCamera {
+	position 1 -1 1
+	orientation 0.742906 0.307722 0.594473 1.21712
+}
+Group {
+	children [ 
+		DEF rv6sl Transform {
+			translation 0.505 0.815 -0.2
+			rotation 0 0 1 -1.570796
+			children [ 
+				Inline {
+					url "mitsubishi-rv6sl/mitsubishi-rv6sl.wrl"
+				}
+			]
+		}
+		DEF jahir Group {
+			children [
+				DEF base Transform {
+					children [
+						Transform {
+							translation 0.505 0.815 -0.5075
+							children [
+								Shape {
+									appearance Appearance {
+										material Material {
+										}
+									}
+									geometry Box {
+										size 0.3 0.35 0.615
+									}
+								}
+							]
+						}
+					]
+				}
+				DEF table Transform {
+					children [
+						Transform {
+							translation 0.35 0.35 -0.04
+							children [
+								Shape {
+									appearance Appearance {
+										material Material {
+										}
+									}
+									geometry Box {
+										size 0.7 0.7 0.08
+									}
+								}
+							]
+						}
+						Transform {
+							translation 1.05 0.5 -0.04
+							children [
+								Shape {
+									appearance Appearance {
+										material Material {
+										}
+									}
+									geometry Box {
+										size 0.7 1 0.08
+									}
+								}
+							]
+						}
+						Transform {
+							translation 0.025 0.025 -0.4475
+							children [
+								Shape {
+									appearance Appearance {
+										material Material {
+										}
+									}
+									geometry Box {
+										size 0.05 0.05 0.735
+									}
+								}
+							]
+						}
+						Transform {
+							translation 1 0.025 -0.4475
+							children [
+								Shape {
+									appearance Appearance {
+										material Material {
+										}
+									}
+									geometry Box {
+										size 0.05 0.05 0.735
+									}
+								}
+							]
+						}
+						Transform {
+							translation 0.975 0.675 -0.4475
+							children [
+								Shape {
+									appearance Appearance {
+										material Material {
+										}
+									}
+									geometry Box {
+										size 0.05 0.05 0.735
+									}
+								}
+							]
+						}
+						Transform {
+							translation 0.025 0.675 -0.4475
+							children [
+								Shape {
+									appearance Appearance {
+										material Material {
+										}
+									}
+									geometry Box {
+										size 0.05 0.05 0.735
+									}
+								}
+							]
+						}
+						Transform {
+							translation 1.375 0.025 -0.4475
+							children [
+								Shape {
+									appearance Appearance {
+										material Material {
+										}
+									}
+									geometry Box {
+										size 0.05 0.05 0.735
+									}
+								}
+							]
+						}
+						Transform {
+							translation 1.375 0.975 -0.4475
+							children [
+								Shape {
+									appearance Appearance {
+										material Material {
+										}
+									}
+									geometry Box {
+										size 0.05 0.05 0.735
+									}
+								}
+							]
+						}
+					]
+				}
+				DEF green Transform {
+					children [
+						Transform {
+							translation 1 0.825 0.04
+							children [
+								Shape {
+									appearance Appearance {
+										material Material {
+											diffuseColor 0 0.8 0
+										}
+									}
+									geometry Box {
+										size 0.105 0.17 0.08
+									}
+								}
+							]
+						}
+					]
+				}
+				DEF blue Transform {
+					children [
+						Transform {
+							translation 1.21 0.825 0.04
+							children [
+								Shape {
+									appearance Appearance {
+										material Material {
+											diffuseColor 0 0 0.8
+										}
+									}
+									geometry Box {
+										size 0.105 0.17 0.08
+									}
+								}
+							]
+						}
+					]
+				}
+				DEF obstacles1 Transform {
+					children [
+						Transform {
+							rotation 1 0 0 -1.570796
+							translation 0.25 0.25 0.5
+							children [
+								Shape {
+									appearance Appearance {
+										material Material {
+										}
+									}
+									geometry Cylinder {
+										height 1
+										radius 0.025
+									}
+								}
+							]
+						}
+						Transform {
+							rotation 1 0 0 -1.570796
+							translation 0.5 0.25 0.5
+							children [
+								Shape {
+									appearance Appearance {
+										material Material {
+										}
+									}
+									geometry Cylinder {
+										height 1
+										radius 0.025
+									}
+								}
+							]
+						}
+						Transform {
+							rotation 0 0 1 -1.570796
+							translation 0.375 0.25 0.75
+							children [
+								Shape {
+									appearance Appearance {
+										material Material {
+										}
+									}
+									geometry Cylinder {
+										height 0.25
+										radius 0.025
+									}
+								}
+							]
+						}
+						Transform {
+							rotation 1 0 0 -1.570796
+							translation 1 0.7 0.5
+							children [
+								Shape {
+									appearance Appearance {
+										material Material {
+										}
+									}
+									geometry Cylinder {
+										height 1
+										radius 0.025
+									}
+								}
+							]
+						}
+						Transform {
+							rotation 1 0 0 -1.570796
+							translation 1 0.95 0.5
+							children [
+								Shape {
+									appearance Appearance {
+										material Material {
+										}
+									}
+									geometry Cylinder {
+										height 1
+										radius 0.025
+									}
+								}
+							]
+						}
+						Transform {
+							translation 1 0.825 0.6
+							children [
+								Shape {
+									appearance Appearance {
+										material Material {
+										}
+									}
+									geometry Cylinder {
+										height 0.25
+										radius 0.025
+									}
+								}
+							]
+						}
+					]
+				}
+				DEF obstacles2 Transform {
+					children [
+						Transform {
+							rotation 1 0 0 -1.570796
+							translation 0.75 0.5 0.5
+							children [
+								Shape {
+									appearance Appearance {
+										material Material {
+										}
+									}
+									geometry Cylinder {
+										height 1
+										radius 0.025
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

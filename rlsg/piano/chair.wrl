@@ -1,0 +1,119 @@
+#VRML V2.0 utf8
+Transform {
+	children [
+		Transform {
+			translation 0 0 0.45
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 0.5 0.5 0.5
+						}
+					}
+					geometry Box {
+						size 0.4 0.4 0.02
+					}
+				}
+			]
+		}
+		Transform {
+			rotation 1 0 0 -0.1
+			translation 0 0.22 0.69
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 0.5 0.5 0.5
+						}
+					}
+					geometry Box {
+						size 0.4 0.02 0.5
+					}
+				}
+			]
+		}
+		Transform {
+			rotation 1 0 0 -1.570796
+			translation 0.19 0.21 0.225
+			children [
+				Transform {
+					rotation 1 0 0 0.1
+					children [
+						Shape {
+							appearance Appearance {
+								material DEF metal Material {
+									diffuseColor 0.7 0.7 0.7
+									shininess 0.5
+								}
+							}
+							geometry Cylinder {
+								height 0.45
+								radius 0.01
+							}
+						}
+					]
+				}
+			]
+		}
+		Transform {
+			rotation 1 0 0 -1.570796
+			translation 0.19 -0.21 0.225
+			children [
+				Transform {
+					rotation 1 0 0 -0.1
+					children [
+						Shape {
+							appearance Appearance {
+								material USE metal
+							}
+							geometry Cylinder {
+								height 0.45
+								radius 0.01
+							}
+						}
+					]
+				}
+			]
+		}
+		Transform {
+			rotation 1 0 0 -1.570796
+			translation -0.19 0.21 0.225
+			children [
+				Transform {
+					rotation 1 0 0 0.1
+					children [
+						Shape {
+							appearance Appearance {
+								material USE metal
+							}
+							geometry Cylinder {
+								height 0.45
+								radius 0.01
+							}
+						}
+					]
+				}
+			]
+		}
+		Transform {
+			rotation 1 0 0 -1.570796
+			translation -0.19 -0.21 0.225
+			children [
+				Transform {
+					rotation 1 0 0 -0.1
+					children [
+						Shape {
+							appearance Appearance {
+								material USE metal
+							}
+							geometry Cylinder {
+								height 0.45
+								radius 0.01
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

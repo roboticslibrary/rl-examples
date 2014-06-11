@@ -1,0 +1,13 @@
+#VRML V2.0 utf8
+Transform {
+	children [
+		Transform {
+			rotation 1 0 0 -1.570796
+			children [
+				Inline {
+					url "kuka-link4.wrl"
+				}
+			]
+		}
+	]
+}

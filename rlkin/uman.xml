@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rlkin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="rlkin.xsd">
+	<kinematics>
+		<manufacturer></manufacturer>
+		<name>UMan</name>
+		<world id="world">
+			<rotation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</rotation>
+			<translation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</translation>
+		</world>
+		<transform id="base">
+			<frame>
+				<a idref="world"/>
+				<b idref="link0"/>
+			</frame>
+			<rotation>
+				<x>0</x>
+				<y>90</y>
+				<z>0</z>
+			</rotation>
+			<translation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</translation>
+		</transform>
+		<link id="link0">
+			<ignore/>
+			<ignore idref="link1"/>
+			<ignore idref="link2"/>
+			<ignore idref="link3"/>
+		</link>
+		<prismatic id="joint0">
+			<frame>
+				<a idref="link0"/>
+				<b idref="link1"/>
+			</frame>
+			<dh>
+				<d>0</d>
+				<theta>0</theta>
+				<a>0</a>
+				<alpha>-90</alpha>
+			</dh>
+			<max>2.5</max>
+			<min>-2.5</min>
+		</prismatic>
+		<link id="link1">
+			<ignore/>
+			<ignore idref="link0"/>
+			<ignore idref="link2"/>
+			<ignore idref="link3"/>
+		</link>
+		<prismatic id="joint1">
+			<frame>
+				<a idref="link1"/>
+				<b idref="link2"/>
+			</frame>
+			<dh>
+				<d>0</d>
+				<theta>-90</theta>
+				<a>0</a>
+				<alpha>90</alpha>
+			</dh>
+			<max>2.5</max>
+			<min>-2.5</min>
+		</prismatic>
+		<link id="link2">
+			<ignore/>
+			<ignore idref="link0"/>
+			<ignore idref="link1"/>
+			<ignore idref="link3"/>
+		</link>
+		<revolute id="joint2">
+			<frame>
+				<a idref="link2"/>
+				<b idref="link3"/>
+			</frame>
+			<dh>
+				<d>0</d>
+				<theta>0</theta>
+				<a>0</a>
+				<alpha>0</alpha>
+			</dh>
+			<max>180</max>
+			<min>-180</min>
+			<wraparound />
+		</revolute>
+		<link id="link3">
+			<ignore idref="link0"/>
+			<ignore idref="link1"/>
+			<ignore idref="link2"/>
+			<ignore idref="link4"/>
+		</link>
+		<revolute id="joint3">
+			<frame>
+				<a idref="link3"/>
+				<b idref="link4"/>
+			</frame>
+			<dh>
+				<d>1.196</d>
+				<theta>0</theta>
+				<a>0</a>
+				<alpha>-90</alpha>
+			</dh>
+			<max>150</max>
+			<min>-150</min>
+		</revolute>
+		<link id="link4">
+			<ignore idref="link3"/>
+			<ignore idref="link5"/>
+			<ignore idref="link6"/>
+		</link>
+		<revolute id="joint4">
+			<frame>
+				<a idref="link4"/>
+				<b idref="link5"/>
+			</frame>
+			<dh>
+				<d>0</d>
+				<theta>0</theta>
+				<a>0</a>
+				<alpha>90</alpha>
+			</dh>
+			<max>114.5</max>
+			<min>-114.5</min>
+		</revolute>
+		<link id="link5">
+			<ignore idref="link4"/>
+			<ignore idref="link6"/>
+		</link>
+		<revolute id="joint5">
+			<frame>
+				<a idref="link5"/>
+				<b idref="link6"/>
+			</frame>
+			<dh>
+				<d>0.55</d>
+				<theta>0</theta>
+				<a>0.045</a>
+				<alpha>-90</alpha>
+			</dh>
+			<max>166</max>
+			<min>-166</min>
+		</revolute>
+		<link id="link6">
+			<ignore idref="link4"/>
+			<ignore idref="link5"/>
+			<ignore idref="link7"/>
+		</link>
+		<revolute id="joint6">
+			<frame>
+				<a idref="link6"/>
+				<b idref="link7"/>
+			</frame>
+			<dh>
+				<d>0</d>
+				<theta>0</theta>
+				<a>-0.045</a>
+				<alpha>90</alpha>
+			</dh>
+			<max>180</max>
+			<min>-28.5</min>
+		</revolute>
+		<link id="link7">
+			<ignore idref="link6"/>
+			<ignore idref="link8"/>
+			<ignore idref="link9"/>
+		</link>
+		<revolute id="joint7">
+			<frame>
+				<a idref="link7"/>
+				<b idref="link8"/>
+			</frame>
+			<dh>
+				<d>0.3</d>
+				<theta>0</theta>
+				<a>0</a>
+				<alpha>-90</alpha>
+			</dh>
+			<max>72.75</max>
+			<min>-274.5</min>
+		</revolute>
+		<link id="link8">
+			<ignore idref="link7"/>
+			<ignore idref="link9"/>
+		</link>
+		<revolute id="joint8">
+			<frame>
+				<a idref="link8"/>
+				<b idref="link9"/>
+			</frame>
+			<dh>
+				<d>0</d>
+				<theta>0</theta>
+				<a>0</a>
+				<alpha>90</alpha>
+			</dh>
+			<max>90</max>
+			<min>-90</min>
+		</revolute>
+		<link id="link9">
+			<ignore idref="link7"/>
+			<ignore idref="link8"/>
+			<ignore idref="link10"/>
+		</link>
+		<revolute id="joint9">
+			<frame>
+				<a idref="link9"/>
+				<b idref="link10"/>
+			</frame>
+			<dh>
+				<d>0.06</d>
+				<theta>0</theta>
+				<a>0</a>
+				<alpha>0</alpha>
+			</dh>
+			<max>134.5</max>
+			<min>-134.5</min>
+		</revolute>
+		<link id="link10">
+			<ignore idref="link9"/>
+		</link>
+		<transform id="tool">
+			<frame>
+				<a idref="link10"/>
+				<b idref="tcp"/>
+			</frame>
+			<rotation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</rotation>
+			<translation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</translation>
+		</transform>
+		<frame id="tcp"/>
+	</kinematics>
+</rlkin>

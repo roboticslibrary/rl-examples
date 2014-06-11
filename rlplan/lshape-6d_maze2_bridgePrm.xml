@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rlplan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="rlplan.xsd">
+	<prm>
+		<duration>1200</duration>
+		<goal>
+			<q>28.375</q>
+			<q>0.5</q>
+			<q>0.375</q>
+			<q unit="deg">0</q>
+			<q unit="deg">-90</q>
+			<q unit="deg">0</q>
+		</goal>
+		<model>
+			<kinematics href="../rlkin/lshape-6d.xml"/>
+			<model>0</model>
+			<scene href="../rlsg/lshape-6d_maze2.xml"/>
+		</model>
+		<start>
+			<q>1</q>
+			<q>0.5</q>
+			<q>1</q>
+			<q unit="deg">0</q>
+			<q unit="deg">0</q>
+			<q unit="deg">0</q>
+		</start>
+		<viewer>
+			<background>
+				<r>0</r>
+				<g>0</g>
+				<b>0</b>
+			</background>
+<!--
+			<camera>
+				<position>
+					<x>7.175</x>
+					<y>-10.5</y>
+					<z>35</z>
+				</position>
+				<scale>1</scale>
+				<target>
+					<x>14</x>
+					<y>12</y>
+					<z>0</z>
+				</target>
+				<up>
+					<x>0</x>
+					<y>0</y>
+					<z>1</z>
+				</up>
+			</camera>
+-->
+			<delta unit="deg">1</delta>
+			<model>
+			<kinematics href="../rlkin/lshape-6d.xml"/>
+			<model>0</model>
+			<scene href="../rlsg/lshape-6d_maze2.xml"/>
+			</model>
+			<size>
+				<height>768</height>
+				<width>1024</width>
+			</size>
+			<wait/>
+		</viewer>
+		<bridgeSampler>
+			<sigma>
+				<q>0.5</q>
+				<q>0.5</q>
+				<q>0.5</q>
+				<q unit="deg">30</q>
+				<q unit="deg">30</q>
+				<q unit="deg">30</q>
+			</sigma>
+		</bridgeSampler>
+		<recursiveVerifier>
+			<delta unit="deg">1</delta>
+		</recursiveVerifier>
+	</prm>
+</rlplan>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rlplan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="rlplan.xsd">
+	<prm>
+		<duration>1200</duration>
+		<goal>
+			<q unit="deg">16.5</q>
+			<q unit="deg">-15</q>
+			<q unit="deg">97</q>
+			<q unit="deg">-90</q>
+			<q unit="deg">-73</q>
+			<q unit="deg">9</q>
+		</goal>
+		<model>
+			<kinematics href="../rlkin/mitsubishi-rv6sl-beam.xml">
+				<world>
+					<rotation>
+						<x>0</x>
+						<y>0</y>
+						<z>0</z>
+					</rotation>
+					<translation>
+						<x>-0.625</x>
+						<y>0</y>
+						<z>0</z>
+					</translation>
+				</world>
+			</kinematics>
+			<model>0</model>
+			<scene href="../rlsg/mitsubishi-rv6sl_beam.convex.xml"/>
+		</model>
+		<start>
+			<q unit="deg">16.5</q>
+			<q unit="deg">-15</q>
+			<q unit="deg">97</q>
+			<q unit="deg">-90</q>
+			<q unit="deg">-73</q>
+			<q unit="deg">-171</q>
+		</start>
+		<viewer>
+			<background>
+				<r>0</r>
+				<g>0</g>
+				<b>0</b>
+			</background>
+			<camera>
+				<position>
+					<x>-1.25</x>
+					<y>-1.25</y>
+					<z>2.5</z>
+				</position>
+				<scale>1</scale>
+				<target>
+					<x>0</x>
+					<y>0</y>
+					<z>0.25</z>
+				</target>
+				<up>
+					<x>0</x>
+					<y>0</y>
+					<z>1</z>
+				</up>
+			</camera>
+			<delta unit="deg">1</delta>
+			<model>
+				<kinematics href="../rlkin/mitsubishi-rv6sl-beam.xml">
+					<world>
+						<rotation>
+							<x>0</x>
+							<y>0</y>
+							<z>0</z>
+						</rotation>
+						<translation>
+							<x>-0.625</x>
+							<y>0</y>
+							<z>0</z>
+						</translation>
+					</world>
+				</kinematics>
+				<model>0</model>
+				<scene href="../rlsg/mitsubishi-rv6sl_beam.xml"/>
+			</model>
+			<size>
+				<height>768</height>
+				<width>1024</width>
+			</size>
+			<wait/>
+		</viewer>
+		<gaussianSampler>
+			<sigma>
+				<q unit="deg">8.75</q>
+				<q unit="deg">8.75</q>
+				<q unit="deg">8.75</q>
+				<q unit="deg">8.75</q>
+				<q unit="deg">8.75</q>
+				<q unit="deg">8.75</q>
+			</sigma>
+		</gaussianSampler>
+		<recursiveVerifier>
+			<delta unit="deg">1</delta>
+		</recursiveVerifier>
+	</prm>
+</rlplan>

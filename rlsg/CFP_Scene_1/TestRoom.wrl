@@ -1,0 +1,128 @@
+#VRML V2.0 utf8
+
+Transform {
+	children [
+		DEF wall Transform {
+			rotation 0 1 0 1.570796
+			translation -0.8 0 1.75
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							transparency 0.5
+						}
+					}
+					geometry Box {
+						size 3.5 5 0.1
+					}
+				}
+			]
+		}
+		DEF floor Transform {
+			translation 1 0 -0.05
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							transparency 0.5
+						}
+					}
+					geometry Box {
+						size 3.5 5 0.1
+					}
+				}
+			]
+		}
+		DEF column1 Transform {
+			rotation 1 0 0 1.570796
+			translation 1 -1.4 1.75
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 0.5 0.5 0.5
+						}
+					}
+					geometry Cylinder {
+						height 3.5
+						radius 0.2
+					}
+				}
+			]
+		}
+		DEF column2 Transform {
+			rotation 1 0 0 1.570796
+			translation 1.5 -0.225 1.75
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 0.5 0.5 0.5
+						}
+					}
+					geometry Cylinder {
+						height 3.5
+						radius 0.2
+					}
+				}
+			]
+		}
+		DEF column3 Transform {
+			rotation 1 0 0 1.570796
+			translation 1.15 0.785 1.75
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 0.5 0.5 0.5
+						}
+					}
+					geometry Cylinder {
+						height 3.5
+						radius 0.2
+					}
+				}
+			]
+		}
+		DEF halfcolumn Transform {
+			rotation 1 0 0 1.570796
+			translation 1.15 0.785 2.375
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 0.5 0.5 0.5
+						}
+					}
+					geometry Cylinder {
+						height 2.25
+						radius 0.2
+					}
+				}
+			]
+		}
+		DEF hanger Transform {
+			translation 0.2 0.785 2.75
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 0.5 0.5 0.5
+						}
+					}
+					geometry Box {
+						size 1.9 0.4 1.5
+					}
+				}
+			]
+		}
+		DEF deposittable Transform {
+			translation 0.15 1.625 0
+			children [
+				Inline {
+					url "DepositTable.wrl"
+				}
+			]
+		}
+	]
+}

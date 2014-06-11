@@ -1,0 +1,158 @@
+#VRML V2.0 utf8
+Transform {
+	children [
+		DEF robot Transform {
+			rotation 0 0 1 1.570796
+			children [
+				DEF link0 Transform {
+					children [
+						Transform {
+							translation 0 0 0.025
+							children [
+								Shape {
+									appearance Appearance {
+										material Material {
+											diffuseColor 0.785 0.8 0.46
+										}
+									}
+									geometry Box {
+										size 0.1 0.1 0.05
+									}
+								}
+							]
+						}
+					]
+				}
+				DEF link1 Transform {
+					center -0.3 0 -0.05
+					translation 0.3 0 0.1
+					children [
+						Transform {
+							translation -0.135 0 -0.025
+							children [
+								Shape {
+									appearance Appearance {
+										material Material {
+											diffuseColor 0.785 0.8 0.46
+										}
+									}
+									geometry Box {
+										size 0.33 0.1 0.05
+									}
+								}
+							]
+						}
+					]
+				}
+				DEF link2 Transform {
+					center -0.33 0 -0.05
+					translation 0.63 0 0.15
+					children [
+						Transform {
+							translation -0.165 0 -0.025
+							children [
+								Shape {
+									appearance Appearance {
+										material Material {
+											diffuseColor 0.785 0.8 0.46
+										}
+									}
+									geometry Box {
+										size 0.33 0.1 0.05
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+		DEF obstacles Transform {
+			children [
+				DEF floor Transform {
+					translation 0 0 -0.005
+					children [
+						Shape {
+							appearance Appearance {
+								material Material {
+									diffuseColor 0.85 0.93 0.95
+								}
+							}
+							geometry Box {
+								size 2.4 1.8 0.01
+							}
+						}
+					]
+				}
+				DEF obstacle1 Transform {
+					rotation 1 0 0 1.570796
+					translation 0.45 0.35 0.0875
+					children [
+						Shape {
+							appearance Appearance {
+								material Material {
+									diffuseColor 0.23 0.57 0.96
+								}
+							}
+							geometry Cylinder {
+								height 0.175
+								radius 0.05
+							}
+						}
+					]
+				}
+				DEF obstacle2 Transform {
+					rotation 1 0 0 1.570796
+					translation -0.075 0.5 0.0875
+					children [
+						Shape {
+							appearance Appearance {
+								material Material {
+									diffuseColor 0.23 0.57 0.96
+								}
+							}
+							geometry Cylinder {
+								height 0.175
+								radius 0.075
+							}
+						}
+					]
+				}
+				DEF obstacle3 Transform {
+					rotation 1 0 0 1.570796
+					translation -0.6 0.01 0.0875
+					children [
+						Shape {
+							appearance Appearance {
+								material Material {
+									diffuseColor 0.23 0.57 0.96
+								}
+							}
+							geometry Cylinder {
+								height 0.175
+								radius 0.1
+							}
+						}
+					]
+				}
+				DEF obstacle4 Transform {
+					rotation 1 0 0 1.570796
+					translation -0.02 -0.3 0.0875
+					children [
+						Shape {
+							appearance Appearance {
+								material Material {
+									diffuseColor 0.23 0.57 0.96
+								}
+							}
+							geometry Cylinder {
+								height 0.175
+								radius 0.05
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

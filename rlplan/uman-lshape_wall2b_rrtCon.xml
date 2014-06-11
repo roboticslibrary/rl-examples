@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rlplan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="rlplan.xsd">
+	<rrtCon>
+		<duration>1200</duration>
+		<goal>
+			<q>-0.625</q>
+			<q>-1</q>
+			<q unit="deg">0</q>
+			<q unit="deg">0</q>
+			<q unit="deg">75</q>
+			<q unit="deg">0</q>
+			<q unit="deg">0</q>
+			<q unit="deg">0</q>
+			<q unit="deg">0</q>
+			<q unit="deg">0</q>
+		</goal>
+		<model>
+			<kinematics href="../rlkin/uman.xml"/>
+			<model>0</model>
+			<scene href="../rlsg/uman-lshape_wall2b.convex.xml"/>
+		</model>
+		<start>
+			<q>-0.625</q>
+			<q>1</q>
+			<q unit="deg">0</q>
+			<q unit="deg">0</q>
+			<q unit="deg">75</q>
+			<q unit="deg">0</q>
+			<q unit="deg">0</q>
+			<q unit="deg">0</q>
+			<q unit="deg">0</q>
+			<q unit="deg">0</q>
+		</start>
+		<viewer>
+			<background>
+				<r>0</r>
+				<g>0</g>
+				<b>0</b>
+			</background>
+			<camera>
+				<position>
+					<x>-1.25</x>
+					<y>-5</y>
+					<z>10</z>
+				</position>
+				<scale>0.5</scale>
+				<target>
+					<x>0</x>
+					<y>0</y>
+					<z>0.5</z>
+				</target>
+				<up>
+					<x>0</x>
+					<y>0</y>
+					<z>1</z>
+				</up>
+			</camera>
+			<delta unit="deg">1</delta>
+			<model>
+				<kinematics href="../rlkin/uman.xml"/>
+				<model>0</model>
+				<scene href="../rlsg/uman-lshape_wall2b.xml"/>
+			</model>
+			<size>
+				<height>768</height>
+				<width>1024</width>
+			</size>
+			<wait/>
+		</viewer>
+		<delta unit="deg">1</delta>
+		<epsilon>1e-9</epsilon>
+		<uniformSampler/>
+		<probability>0.25</probability>
+	</rrtCon>
+</rlplan>

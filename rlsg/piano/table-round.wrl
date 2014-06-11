@@ -1,0 +1,88 @@
+#VRML V2.0 utf8
+Transform {
+	children [
+		DEF desktop Transform {
+			rotation 1 0 0 -1.570796
+			translation 0 0 0.73
+			children [
+				Shape {
+					appearance Appearance {
+						material DEF wood Material {
+							diffuseColor 1.000000 0.909804 0.784314
+							emissiveColor 0.080000 0.072784 0.062745
+							specularColor 0.010000 0.009098 0.007843
+							shininess 0.010000
+						}
+					}
+					geometry Cylinder {
+						height 0.02
+						radius 0.75
+					}
+				}
+			]
+		}
+		DEF leg1 Transform {
+			rotation 1 0 0 -1.570796
+			translation 0.475 0.475 0.36
+			children [
+				Shape {
+					appearance Appearance {
+						material DEF metal Material {
+							diffuseColor 0.7 0.7 0.7
+							shininess 0.5
+						}
+					}
+					geometry Cylinder {
+						height 0.72
+						radius 0.03
+					}
+				}
+			]
+		}
+		DEF leg2 Transform {
+			rotation 1 0 0 -1.570796
+			translation -0.475 0.475 0.36
+			children [
+				Shape {
+					appearance Appearance {
+						material USE metal
+					}
+					geometry Cylinder {
+						height 0.72
+						radius 0.03
+					}
+				}
+			]
+		}
+		DEF leg3 Transform {
+			rotation 1 0 0 -1.570796
+			translation 0.475 -0.475 0.36
+			children [
+				Shape {
+					appearance Appearance {
+						material USE metal
+					}
+					geometry Cylinder {
+						height 0.72
+						radius 0.03
+					}
+				}
+			]
+		}
+		DEF leg4 Transform {
+			rotation 1 0 0 -1.570796
+			translation -0.475 -0.475 0.36
+			children [
+				Shape {
+					appearance Appearance {
+						material USE metal
+					}
+					geometry Cylinder {
+						height 0.72
+						radius 0.03
+					}
+				}
+			]
+		}
+	]
+}

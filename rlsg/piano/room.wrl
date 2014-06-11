@@ -1,0 +1,233 @@
+#VRML V2.0 utf8
+Transform {
+	children [
+		Transform {
+			children [
+				Inline {
+					url "walls.wrl"
+				}
+			]
+		}
+		# bottom room
+		Transform {
+			translation -4 -1.76 0
+			children [
+				Inline {
+					url "cupboard.wrl"
+				}
+			]
+		}
+		Transform {
+			translation -3 -1.76 0
+			children [
+				Inline {
+					url "rack.wrl"
+				}
+			]
+		}
+		Transform {
+			translation -2 -1.76 0
+			children [
+				Inline {
+					url "cupboard-small.wrl"
+				}
+			]
+		}
+		Transform {
+			translation -1 -1.76 0
+			children [
+				Inline {
+					url "rack-small.wrl"
+				}
+			]
+		}
+		Transform {
+			translation -0 -1.76 0
+			children [
+				Inline {
+					url "cupboard.wrl"
+				}
+			]
+		}
+		Transform {
+			translation 1 -1.76 0
+			children [
+				Inline {
+					url "rack.wrl"
+				}
+			]
+		}
+		Transform {
+			rotation 0 0 1 1.570796
+			translation -1 -4 0
+			children [
+				Inline {
+					url "partition.wrl"
+				}
+			]
+		}
+		Transform {
+			translation -4.5 -4.5 0
+			children [
+				Inline {
+					url "lamp.wrl"
+				}
+			]
+		}
+		Transform {
+			translation 3.5 -3.5 0
+			children [
+				Inline {
+					url "table-round-chairs.wrl"
+				}
+			]
+		}
+		Transform {
+			translation 4.5 -2.25 0
+			children [
+				Inline {
+					url "lamp.wrl"
+				}
+			]
+		}
+		# right room
+		Transform {
+			rotation 0 0 1 1.570796
+			translation -0.73 1 0
+			children [
+				Inline {
+					url "rack-small.wrl"
+				}
+			]
+		}
+		Transform {
+			rotation 0 0 1 1.570796
+			translation -0.73 2 0
+			children [
+				Inline {
+					url "cupboard.wrl"
+				}
+			]
+		}
+		Transform {
+			rotation 0 0 1 1.570796
+			translation -0.73 3 0
+			children [
+				Inline {
+					url "rack.wrl"
+				}
+			]
+		}
+		Transform {
+			rotation 0 0 1 1.570796
+			translation -0.73 4 0
+			children [
+				Inline {
+					url "rack.wrl"
+				}
+			]
+		}
+		Transform {
+			translation 4 1 0
+			children [
+				Inline {
+					url "partition.wrl"
+				}
+			]
+		}
+		Transform {
+			translation 3.5 3 0
+			children [
+				Inline {
+					url "table-chairs.wrl"
+				}
+			]
+		}
+		Transform {
+			translation 4.5 4.5 0
+			children [
+				Inline {
+					url "lamp.wrl"
+				}
+			]
+		}
+		Transform {
+			translation 4.5 -0.8 0
+			children [
+				Inline {
+					url "lamp.wrl"
+				}
+			]
+		}
+		# left room
+		Transform {
+			rotation 0 0 1 -1.570796
+			translation -1.27 1 0
+			children [
+				Inline {
+					url "rack.wrl"
+				}
+			]
+		}
+		Transform {
+			rotation 0 0 1 -1.570796
+			translation -1.27 2 0
+			children [
+				Inline {
+					url "rack.wrl"
+				}
+			]
+		}
+		Transform {
+			rotation 0 0 1 -1.570796
+			translation -1.27 3 0
+			children [
+				Inline {
+					url "cupboard.wrl"
+				}
+			]
+		}
+		Transform {
+			rotation 0 0 1 -1.570796
+			translation -1.27 4 0
+			children [
+				Inline {
+					url "rack.wrl"
+				}
+			]
+		}
+		Transform {
+			translation -4 2 0
+			children [
+				Inline {
+					url "partition.wrl"
+				}
+			]
+		}
+		Transform {
+			rotation 0 0 1 -1.570796
+			translation -3 -0.5 0
+			children [
+				Inline {
+					url "table-chairs.wrl"
+				}
+			]
+		}
+		Transform {
+			translation -4.5 4.5 0
+			children [
+				Inline {
+					url "lamp.wrl"
+				}
+			]
+		}
+		Transform {
+			translation -4.5 -0.8 0
+			children [
+				Inline {
+					url "lamp.wrl"
+				}
+			]
+		}
+	]
+}
