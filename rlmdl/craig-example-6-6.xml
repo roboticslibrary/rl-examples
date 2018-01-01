@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rlmdl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="rlmdl.xsd">
+	<model>
+		<manufacturer>Featherstone</manufacturer>
+		<name>planar2</name>
+		<world id="frame0">
+			<g>
+				<x>0</x>
+				<y>9.80665</y>
+				<z>0</z>
+			</g>
+			<rotation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</rotation>
+			<translation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</translation>
+		</world>
+		<frame id="frame1"/>
+		<body id="frame2">
+			<cm>
+				<x>1</x>
+				<y>0</y>
+				<z>0</z>
+			</cm>
+			<i>
+				<xx>0</xx>
+				<yy>0</yy>
+				<zz>0</zz>
+				<xy>0</xy>
+				<yz>0</yz>
+				<xz>0</xz>
+			</i>
+			<m>1</m>
+		</body>
+		<frame id="frame3"/>
+		<body id="frame4">
+			<cm>
+				<x>1</x>
+				<y>0</y>
+				<z>0</z>
+			</cm>
+			<i>
+				<xx>0</xx>
+				<yy>0</yy>
+				<zz>0</zz>
+				<xy>0</xy>
+				<yz>0</yz>
+				<xz>0</xz>
+			</i>
+			<m>1</m>
+		</body>
+		<frame id="frame5"/>
+		<fixed id="link0">
+			<frame>
+				<a idref="frame0"/>
+				<b idref="frame1"/>
+			</frame>
+			<rotation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</rotation>
+			<translation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</translation>
+		</fixed>
+		<revolute id="joint0">
+			<frame>
+				<a idref="frame1"/>
+				<b idref="frame2"/>
+			</frame>
+			<max></max>
+			<min></min>
+			<offset></offset>
+			<speed></speed>
+		</revolute>
+		<fixed id="link1">
+			<frame>
+				<a idref="frame2"/>
+				<b idref="frame3"/>
+			</frame>
+			<rotation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</rotation>
+			<translation>
+				<x>1</x>
+				<y>0</y>
+				<z>0</z>
+			</translation>
+		</fixed>
+		<revolute id="joint1">
+			<frame>
+				<a idref="frame3"/>
+				<b idref="frame4"/>
+			</frame>
+			<max></max>
+			<min></min>
+			<offset></offset>
+			<speed></speed>
+		</revolute>
+		<fixed id="link2">
+			<frame>
+				<a idref="frame4"/>
+				<b idref="frame5"/>
+			</frame>
+			<rotation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</rotation>
+			<translation>
+				<x>1</x>
+				<y>0</y>
+				<z>0</z>
+			</translation>
+		</fixed>
+	</model>
+</rlmdl>

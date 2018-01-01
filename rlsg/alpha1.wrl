@@ -1,0 +1,74 @@
+#VRML V2.0 utf8
+Transform {
+	children [
+		DEF robot Transform {
+			children [
+				DEF link0 Transform {
+					children [
+					]
+				}
+				DEF link1 Transform {
+					children [
+					]
+				}
+				DEF link2 Transform {
+					children [
+					]
+				}
+				DEF link3 Transform {
+					children [
+					]
+				}
+				DEF link4 Transform {
+					children [
+					]
+				}
+				DEF link5 Transform {
+					children [
+					]
+				}
+				DEF body1 Transform {
+					children [
+						Inline {
+							url "alpha/robot.wrl"
+						}
+					]
+				}			]
+		}
+		DEF obstacle Transform {
+			children [
+				DEF link0 Transform {
+					children [
+					]
+				}
+				DEF link1 Transform {
+					children [
+					]
+				}
+				DEF link2 Transform {
+					children [
+					]
+				}
+				DEF link3 Transform {
+					children [
+					]
+				}
+				DEF link4 Transform {
+					children [
+					]
+				}
+				DEF link5 Transform {
+					children [
+					]
+				}
+				DEF body1 Transform {
+					children [
+						Inline {
+							url "alpha/obstacle1.0.wrl"
+						}
+					]
+				}
+			]
+		}
+	]
+}

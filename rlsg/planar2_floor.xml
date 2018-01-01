@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rlsg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="rlsg.xsd">
+	<scene href="planar2_floor.wrl">
+		<model name="planar2">
+			<body name="link0"/>
+			<body name="link1"/>
+		</model>
+		<model name="floor">
+			<body name=""/>
+		</model>
+	</scene>
+</rlsg>

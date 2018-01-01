@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rlplan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="rlplan.xsd">
+	<rrtConCon>
+		<duration>1200</duration>
+		<goal>
+			<q>7.8240253</q>
+			<q>2.4147785</q>
+			<q>-0.8133371</q>
+			<q>0.286451</q>
+			<q>0.769112</q>
+			<q>0.706202</q>
+		</goal>
+		<model>
+			<kinematics href="../rlkin/alpha.xml"/>
+			<model>0</model>
+			<scene href="../rlsg/alpha1.xml"/>
+		</model>
+		<start>
+			<q>0</q>
+			<q>0</q>
+			<q>0</q>
+			<q>0</q>
+			<q>0</q>
+			<q>0</q>
+		</start>
+		<viewer>
+			<delta unit="deg">1</delta>
+			<model>
+				<kinematics href="../rlkin/alpha.xml"/>
+				<model>0</model>
+				<scene href="../rlsg/alpha1.xml"/>
+			</model>
+			<swept unit="deg">100</swept>
+		</viewer>
+		<delta unit="deg">1</delta>
+		<gnatNearestNeighbors/>
+		<uniformSampler/>
+	</rrtConCon>
+</rlplan>

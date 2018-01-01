@@ -1,0 +1,213 @@
+#VRML V2.0 utf8
+Transform {
+	children [
+		DEF mekabot Transform {
+			children [
+				DEF T2R3_TJ0_base Transform {
+					children [
+						Inline {
+							url "mekabot/T2R3/T2R3_TJ0_base.wrl"
+						}
+						Inline {
+							url "frame.wrl"
+						}
+					]
+				}
+				DEF T2R3_TJ1_pan Transform {
+					children [
+						Inline {
+							url "mekabot/T2R3/T2R3_TJ1_pan.wrl"
+						}
+						Inline {
+							url "frame.wrl"
+						}
+					]
+				}
+				DEF T2R3_TJ2 Transform {
+					children [
+						Inline {
+							url "mekabot/T2R3/T2R3_TJ2.wrl"
+						}
+						Inline {
+							url "frame.wrl"
+						}
+					]
+				}
+				DEF T2R3_TJ3 Transform {
+					children [
+						Inline {
+							url "mekabot/T2R3/T2R3_TJ3.wrl"
+						}
+						Inline {
+							url "frame.wrl"
+						}
+					]
+				}
+				DEF A2R3_T4_Chest Transform {
+					children [
+						Inline {
+							url "mekabot/A2R3/A2R3_T4_Chest.wrl"
+						}
+						Inline {
+							url "frame.wrl"
+						}
+					]
+				}
+				DEF Right_A2R3_RT1_shoulderRoll Transform {
+					children [
+						Inline {
+							url "mekabot/A2R3/A2R3_RT1_shoulderRoll.wrl"
+						}
+						Inline {
+							url "frame.wrl"
+						}
+					]
+				}
+				DEF Right_A2R3_RT2_shoulderPitch Transform {
+					children [
+						Inline {
+							url "mekabot/A2R3/A2R3_RT2_shoulderPitch.wrl"
+						}
+						Inline {
+							url "frame.wrl"
+						}
+					]
+				}
+				DEF Right_A2R3_RT3_bicep Transform {
+					children [
+						Inline {
+							url "mekabot/A2R3/A2R3_RT3_bicep.wrl"
+						}
+						Inline {
+							url "frame.wrl"
+						}
+					]
+				}
+				DEF Right_A2R3_RT4_elbow Transform {
+					children [
+						Inline {
+							url "mekabot/A2R3/A2R3_RT4_elbow.wrl"
+						}
+						Inline {
+							url "frame.wrl"
+						}
+					]
+				}
+				DEF Right_A2R3_T5_forearmRoll Transform {
+					children [
+						Inline {
+							url "mekabot/A2R3/A2R3_T5_forearmRoll.wrl"
+						}
+						Inline {
+							url "frame.wrl"
+						}
+					]
+				}
+				DEF Right_A2R3_T6_wristDiff Transform {
+					children [
+						Inline {
+							url "mekabot/A2R3/A2R3_T6_wristDiff.wrl"
+						}
+						Inline {
+							url "frame.wrl"
+						}
+					]
+				}
+				DEF Right_A2R3_T7_wristYaw Transform {
+					children [
+						Inline {
+							url "mekabot/A2R3/A2R3_T7_wristYaw.wrl"
+						}
+						Inline {
+							url "frame.wrl"
+						}
+					]
+				}
+				DEF RT8 Transform {
+					children [
+						Inline {
+							url "frame.wrl"
+						}
+					]
+				}
+				DEF Left_A2R3_LT1_shoulderRoll Transform {
+					children [
+						Inline {
+							url "mekabot/A2R3/A2R3_LT1_shoulderRoll.wrl"
+						}
+						Inline {
+							url "frame.wrl"
+						}
+					]
+				}
+				DEF Left_A2R3_LT2_shoulderPitch Transform {
+					children [
+						Inline {
+							url "mekabot/A2R3/A2R3_LT2_shoulderPitch.wrl"
+						}
+						Inline {
+							url "frame.wrl"
+						}
+					]
+				}
+				DEF Left_A2R3_LT3_bicep Transform {
+					children [
+						Inline {
+							url "mekabot/A2R3/A2R3_LT3_bicep.wrl"
+						}
+						Inline {
+							url "frame.wrl"
+						}
+					]
+				}
+				DEF Left_A2R3_LT4_elbow Transform {
+					children [
+						Inline {
+							url "mekabot/A2R3/A2R3_LT4_elbow.wrl"
+						}
+						Inline {
+							url "frame.wrl"
+						}
+					]
+				}
+				DEF Left_A2R3_T5_forearmRoll Transform {
+					children [
+						Inline {
+							url "mekabot/A2R3/A2R3_T5_forearmRoll.wrl"
+						}
+						Inline {
+							url "frame.wrl"
+						}
+					]
+				}
+				DEF Left_A2R3_T6_wristDiff Transform {
+					children [
+						Inline {
+							url "mekabot/A2R3/A2R3_T6_wristDiff.wrl"
+						}
+						Inline {
+							url "frame.wrl"
+						}
+					]
+				}
+				DEF Left_A2R3_T7_wristYaw Transform {
+					children [
+						Inline {
+							url "mekabot/A2R3/A2R3_T7_wristYaw.wrl"
+						}
+						Inline {
+							url "frame.wrl"
+						}
+					]
+				}
+				DEF LT8 Transform {
+					children [
+						Inline {
+							url "frame.wrl"
+						}
+					]
+				}
+			]
+		}
+	]
+}

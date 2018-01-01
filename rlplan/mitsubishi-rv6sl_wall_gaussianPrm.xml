@@ -37,11 +37,6 @@
 			<q unit="deg">0</q>
 		</start>
 		<viewer>
-			<background>
-				<r>0</r>
-				<g>0</g>
-				<b>0</b>
-			</background>
 			<camera>
 				<position>
 					<x>-1.25</x>
@@ -79,12 +74,9 @@
 				<model>0</model>
 				<scene href="../rlsg/mitsubishi-rv6sl_wall.xml"/>
 			</model>
-			<size>
-				<height>768</height>
-				<width>1024</width>
-			</size>
-			<wait/>
+			<swept unit="deg">100</swept>
 		</viewer>
+		<kdtreeNearestNeighbors/>
 		<gaussianSampler>
 			<sigma>
 				<q unit="deg">8.75</q>

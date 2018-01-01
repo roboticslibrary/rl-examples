@@ -37,11 +37,6 @@
 			<q unit="deg">0</q>
 		</start>
 		<viewer>
-			<background>
-				<r>255</r>
-				<g>255</g>
-				<b>255</b>
-			</background>
 			<camera>
 				<orthographic/>
 				<position>
@@ -80,12 +75,9 @@
 				<model>0</model>
 				<scene href="../rlsg/jahir.xml"/>
 			</model>
-			<size>
-				<height>768</height>
-				<width>1024</width>
-			</size>
-			<wait/>
+			<swept unit="deg">100</swept>
 		</viewer>
+		<kdtreeNearestNeighbors/>
 		<gaussianSampler>
 			<sigma>
 				<q unit="deg">8.75</q>

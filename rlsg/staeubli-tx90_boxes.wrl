@@ -1,0 +1,14 @@
+#VRML V2.0 utf8
+Transform {
+	children [
+		DEF staeubli-tx90 Transform {
+			children [
+				Inline {
+					url "staeubli-tx90/staeubli-tx90.wrl"
+				}			]
+		}
+		DEF boxes Inline {
+			url "boxes.wrl"
+		}	]
+}
+

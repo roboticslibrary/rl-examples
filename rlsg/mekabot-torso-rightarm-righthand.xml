@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rlsg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="rlsg.xsd">
+	<scene href="mekabot-torso-rightarm-righthand.wrl">
+		<model name="mekabot">
+			<body name="T2R3_TJ0_base"/>
+			<body name="T2R3_TJ1_pan"/>
+			<body name="T2R3_TJ2"/>
+			<body name="T2R3_TJ3"/>
+			<body name="A2R3_T4_Chest"/>
+			<body name="A2R3_RT1_shoulderRoll"/>
+			<body name="A2R3_RT2_shoulderPitch"/>
+			<body name="A2R3_RT3_bicep"/>
+			<body name="A2R3_RT4_elbow"/>
+			<body name="A2R3_T5_forearmRoll"/>
+			<body name="A2R3_T6_wristDiff"/>
+			<body name="A2R3_T7_wristYaw"/>
+			<body name="H2R3_RT8_palm_right"/>
+			<body name="H2R3_RJ0_thumb_abductlink"/>
+			<body name="H2R3_thumb_knuckle1"/>
+			<body name="H2R3_thumb_knuckle2"/>
+			<body name="H2R3_fore_finger_knuckle1"/>
+			<body name="H2R3_fore_finger_knuckle2"/>
+			<body name="H2R3_fore_finger_knuckle3"/>
+			<body name="H2R3_middle_finger_knuckle1"/>
+			<body name="H2R3_middle_finger_knuckle2"/>
+			<body name="H2R3_middle_finger_knuckle3"/>
+			<body name="H2R3_ring_finger_knuckle1"/>
+			<body name="H2R3_ring_finger_knuckle2"/>
+			<body name="H2R3_ring_finger_knuckle3"/>
+		</model>
+	</scene>
+</rlsg>

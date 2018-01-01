@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rlplan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="rlplan.xsd">
+	<eet>
+		<duration>1200</duration>
+		<goal>
+			<q>270</q>
+			<q>400</q>
+			<q>160</q>
+			<q unit="deg">90</q>
+			<q unit="deg">0</q>
+			<q unit="deg">0</q>
+		</goal>
+		<model>
+			<kinematics href="../rlkin/twistycool.xml"/>
+			<model>0</model>
+			<scene href="../rlsg/twistycool.xml"/>
+		</model>
+		<start>
+			<q>270</q>
+			<q>200</q>
+			<q>160</q>
+			<q unit="deg">90</q>
+			<q unit="deg">0</q>
+			<q unit="deg">0</q>
+		</start>
+		<viewer>
+			<delta>1</delta>
+			<model>
+				<kinematics href="../rlkin/twistycool.xml"/>
+				<model>0</model>
+				<scene href="../rlsg/twistycool.xml"/>
+			</model>
+			<swept>100</swept>
+		</viewer>
+		<delta>1</delta>
+		<epsilon>1</epsilon>
+		<gnatNearestNeighbors/>
+		<uniformSampler/>
+		<alternativeDistanceComputation/>
+		<explorer>
+			<space/>
+			<goal>
+				<goal>
+					<tcp/>
+				</goal>
+			</goal>
+			<radius>5</radius>
+			<range>753.18</range>
+			<samples>10</samples>
+			<start>
+				<start>
+					<tcp/>
+				</start>
+			</start>
+		</explorer>
+		<goalEpsilon>1</goalEpsilon>
+		<max>
+			<x>402.96</x>
+			<y>476.86</y>
+			<z>269.25</z>
+		</max>
+		<min>
+			<x>53.46</x>
+			<y>91</y>
+			<z>-21.25</z>
+		</min>
+	</eet>
+</rlplan>

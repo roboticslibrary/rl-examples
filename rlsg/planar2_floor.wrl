@@ -1,0 +1,32 @@
+#VRML V2.0 utf8
+Transform {
+	children [
+		DEF planar2 Transform {
+			rotation 1 0 0 -1.570796
+			translation 0 0 2
+			children [
+				Inline {
+					url "planar2.wrl"
+				}			]
+		}
+		DEF floor Group {
+			children [
+				Transform {
+					translation 0 0 -0.005
+					children [
+						Shape {
+							appearance Appearance {
+								material Material {
+									transparency 0.5
+								}
+							}
+							geometry Box {
+								size 5 5 0.01
+							}
+						}
+					]
+				}
+			]
+		}	]
+}
+

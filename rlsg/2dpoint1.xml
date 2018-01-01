@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rlsg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="rlsg.xsd">
+	<scene href="2dpoint1.wrl">
+		<model name="Robot">
+			<body name="link0"/>
+			<body name="link1"/>
+			<body name="link2"/>
+		</model>
+		<model name="Obst">
+			<body name=""/>
+		</model>
+	</scene>
+</rlsg>

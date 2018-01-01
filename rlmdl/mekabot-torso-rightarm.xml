@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rlmdl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="rlmdl.xsd">
+	<model>
+		<manufacturer>Meka Robotics</manufacturer>
+		<name>Humanoid</name>
+		<world id="world">
+			<rotation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</rotation>
+			<translation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</translation>
+			<g>
+				<x>0</x>
+				<y>0</y>
+				<z>9.86055</z>
+			</g>
+		</world>
+		<fixed id="base">
+			<frame>
+				<a idref="world"/>
+				<b idref="T0"/>
+			</frame>
+			<rotation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</rotation>
+			<translation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</translation>
+		</fixed>
+		<!-- T2_panplate -->
+		<body id="T0">
+			<ignore/>
+			<ignore idref="T1"/>
+		</body>
+		<fixed id="fixed0">
+			<frame>
+				<a idref="T0"/>
+				<b idref="frame0"/>
+			</frame>
+			<rotation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</rotation>
+			<translation>
+				<x>0</x>
+				<y>0</y>
+				<z>0.1678</z>
+			</translation>
+		</fixed>
+		<frame id="frame0"/>
+		<revolute id="T2.J0">
+			<frame>
+				<a idref="frame0"/>
+				<b idref="T1"/>
+			</frame>
+			<axis>
+				<x>0</x>
+				<y>0</y>
+				<z>1</z>
+			</axis>
+			<max>85</max>
+			<min>-85</min>
+			<speed>201</speed>
+		</revolute>
+		<!-- T2_torso -->
+		<body id="T1">
+			<ignore idref="T0"/>
+			<ignore idref="T2"/>
+			<cm>
+				<x>0.00011773999999999999</x>
+				<y>0.0038073400000000002</y>
+				<z>-0.05227532</z>
+			</cm>
+			<i>
+				<xx>0.038982059999999999</xx>
+				<xy>-4.3000000000000001e-07</xy>
+				<xz>-7.9090000000000003e-05</xz>
+				<yy>0.02598195</yy>
+				<yz>-0.00023046000000000001</yz>
+				<zz>0.02305461</zz>
+			</i>
+			<m>4.4109999999999996</m>
+		</body>
+		<fixed id="fixed1">
+			<frame>
+				<a idref="T1"/>
+				<b idref="frame1"/>
+			</frame>
+			<rotation>
+				<x>-90</x>
+				<y>-90</y>
+				<z>0</z>
+			</rotation>
+			<translation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</translation>
+		</fixed>
+		<frame id="frame1"/>
+		<revolute id="T2.J1">
+			<frame>
+				<a idref="frame1"/>
+				<b idref="T2"/>
+			</frame>
+			<axis>
+				<x>0</x>
+				<y>0</y>
+				<z>1</z>
+			</axis>
+			<max>27</max>
+			<min>-12</min>
+			<speed>241</speed>
+		</revolute>
+		<!-- T2_mid -->
+		<body id="T2">
+			<ignore idref="T1"/>
+			<ignore idref="T3"/>
+			<cm>
+				<x>0.046258880000000002</x>
+				<y>0.0011785700000000001</y>
+				<z>-0.0029927600000000001</z>
+			</cm>
+			<i>
+				<xx>0.02596625</xx>
+				<xy>0.00084615000000000005</xy>
+				<xz>0.0015307299999999999</xz>
+				<yy>0.054539509999999999</yy>
+				<yz>0.0001126</yz>
+				<zz>0.039395630000000001</zz>
+			</i>
+			<m>4.9340000000000002</m>
+		</body>
+		<fixed id="fixed2">
+			<frame>
+				<a idref="T2"/>
+				<b idref="frame2"/>
+			</frame>
+			<rotation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</rotation>
+			<translation>
+				<x>0.1397</x>
+				<y>0</y>
+				<z>0</z>
+			</translation>
+		</fixed>
+		<frame id="frame2"/>
+		<revolute id="T2.J2">
+			<frame>
+				<a idref="frame2"/>
+				<b idref="T3"/>
+			</frame>
+			<axis>
+				<x>0</x>
+				<y>0</y>
+				<z>1</z>
+			</axis>
+			<max>29</max>
+			<min>-29</min>
+			<speed>241</speed>
+		</revolute>
+		<!-- A2_upper -->
+		<body id="T3">
+			<ignore idref="T2"/>
+			<ignore idref="T4"/>
+			<cm>
+				<x>0.12973999999999999</x>
+				<y>0.0086999999999999994</y>
+				<z>0.011469999999999999</z>
+			</cm>
+			<i>
+				<xx>0.041880000000000001</xx>
+				<xy>0.0083800000000000003</xy>
+				<xz>0.014409999999999999</xz>
+				<yy>0.17534</yy>
+				<yz>0.00018000000000000001</yz>
+				<zz>0.15323999999999999</zz>
+			</i>
+			<m>6.2450000000000001</m>
+		</body>
+		<fixed id="fixed3">
+			<frame>
+				<a idref="T3"/>
+				<b idref="T4"/>
+			</frame>
+			<rotation>
+				<x>90</x>
+				<y>0</y>
+				<z>90</z>
+			</rotation>
+			<translation>
+				<x>0.2337</x>
+				<y>0</y>
+				<z>0</z>
+			</translation>
+		</fixed>
+		<body id="T4">
+			<ignore idref="T3"/>
+			<ignore idref="RT1"/>
+			<cm>
+				<x>2.088e-05</x>
+				<y>-0.0093678800000000003</y>
+				<z>-0.02395458</z>
+			</cm>
+			<i>
+				<xx>0.0068112299999999997</xx>
+				<xy>2.79e-06</xy>
+				<xz>-9.5999999999999991e-07</xz>
+				<yy>0.0046159599999999997</yy>
+				<yz>0.0001518</yz>
+				<zz>0.0032669999999999999</zz>
+			</i>
+			<m>1.9872000000000001</m>
+		</body>
+		<fixed id="fixed4">
+			<frame>
+				<a idref="T4"/>
+				<b idref="frame3"/>
+			</frame>
+			<rotation>
+				<x>0</x>
+				<y>90</y>
+				<z>-90</z>
+			</rotation>
+			<translation>
+				<x>0</x>
+				<y>-0.18465</y>
+				<z>0</z>
+			</translation>
+		</fixed>
+		<frame id="frame3"/>
+		<revolute id="A2.R3.J0">
+			<frame>
+				<a idref="frame3"/>
+				<b idref="RT1"/>
+			</frame>
+			<axis>
+				<x>0</x>
+				<y>0</y>
+				<z>1</z>
+			</axis>
+			<max>200.21607764145762</max>
+			<min>-80.216077641457616</min>
+			<speed>317</speed>
+		</revolute>
+		<!-- A2_shoulderupper_RIGHT -->
+		<body id="RT1">
+			<ignore idref="T4"/>
+			<ignore idref="RT2"/>
+			<cm>
+				<x>0.026355440000000001</x>
+				<y>-0.043064940000000003</y>
+				<z>-0.00080376999999999998</z>
+			</cm>
+			<i>
+				<xx>0.0019535799999999999</xx>
+				<xy>-0.00077554000000000002</xy>
+				<xz>4.3900000000000003e-06</xz>
+				<yy>0.00121948</yy>
+				<yz>4.7400000000000004e-06</yz>
+				<zz>0.0021735999999999999</zz>
+			</i>
+			<m>0.5575</m>
+		</body>
+		<fixed id="fixed5">
+			<frame>
+				<a idref="RT1"/>
+				<b idref="frame4"/>
+			</frame>
+			<rotation>
+				<x>90</x>
+				<y>-90</y>
+				<z>0</z>
+			</rotation>
+			<translation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</translation>
+		</fixed>
+		<frame id="frame4"/>
+		<revolute id="A2.R3.J1">
+			<frame>
+				<a idref="frame4"/>
+				<b idref="RT2"/>
+			</frame>
+			<axis>
+				<x>0</x>
+				<y>0</y>
+				<z>1</z>
+			</axis>
+			<max>150.2856528108405</max>
+			<min>-24.385652810840504</min>
+			<speed>317</speed>
+		</revolute>
+		<!-- A2_shoulderpitch_RIGHT -->
+		<body id="RT2">
+			<ignore idref="RT1"/>
+			<ignore idref="RT3"/>
+			<cm>
+				<x>0.0080258199999999995</x>
+				<y>1.8159999999999999e-05</y>
+				<z>-0.087695980000000007</z>
+			</cm>
+			<i>
+				<xx>0.029496609999999999</xx>
+				<xy>8.6360000000000007e-05</xy>
+				<xz>-0.0024288000000000001</xz>
+				<yy>0.02983326</yy>
+				<yz>-0.00013024</yz>
+				<zz>0.0024423499999999998</zz>
+			</i>
+			<m>2.2200000000000002</m>
+		</body>
+		<fixed id="fixed6">
+			<frame>
+				<a idref="RT2"/>
+				<b idref="frame5"/>
+			</frame>
+			<rotation>
+				<x>90</x>
+				<y>-90</y>
+				<z>0</z>
+			</rotation>
+			<translation>
+				<x>0.03175</x>
+				<y>-0.27857</y>
+				<z>0</z>
+			</translation>
+		</fixed>
+		<frame id="frame5"/>
+		<revolute id="A2.R3.J2">
+			<frame>
+				<a idref="frame5"/>
+				<b idref="RT3"/>
+			</frame>
+			<axis>
+				<x>0</x>
+				<y>0</y>
+				<z>1</z>
+			</axis>
+			<max>85.094305072331082</max>
+			<min>-85.094305072331082</min>
+			<speed>259</speed>
+		</revolute>
+		<!-- A2_bicep_RIGHT -->
+		<body id="RT3">
+			<ignore idref="RT2"/>
+			<ignore idref="RT4"/>
+			<cm>
+				<x>0.0</x>
+				<y>0.025730920000000001</y>
+				<z>-0.00080946999999999996</z>
+			</cm>
+			<i>
+				<xx>0.00062343999999999995</xx>
+				<xy>2.0e-08</xy>
+				<xz>0.0</xz>
+				<yy>0.00042456999999999998</yy>
+				<yz>1.768e-05</yz>
+				<zz>0.00038622999999999999</zz>
+			</i>
+			<m>0.22</m>
+		</body>
+		<fixed id="fixed7">
+			<frame>
+				<a idref="RT3"/>
+				<b idref="frame6"/>
+			</frame>
+			<rotation>
+				<x>90</x>
+				<y>0</y>
+				<z>0</z>
+			</rotation>
+			<translation>
+				<x>-0.00502</x>
+				<y>0</y>
+				<z>0</z>
+			</translation>
+		</fixed>
+		<frame id="frame6"/>
+		<revolute id="A2.R3.J3">
+			<frame>
+				<a idref="frame6"/>
+				<b idref="RT4"/>
+			</frame>
+			<axis>
+				<x>0</x>
+				<y>0</y>
+				<z>1</z>
+			</axis>
+			<max>133.08121223219192</max>
+			<min>-0.0812122321919162</min>
+			<speed>259</speed>
+		</revolute>
+		<!-- A2_elbowclevis_RIGHT -->
+		<body id="RT4">
+			<ignore idref="RT3"/>
+			<ignore idref="RT4"/>
+			<cm>
+				<x>0.0019372899999999999</x>
+				<y>0.00046171</y>
+				<z>-0.13853286000000001</z>
+			</cm>
+			<i>
+				<xx>0.031308089999999997</xx>
+				<xy>-2.8899999999999999e-06</xy>
+				<xz>-0.00089152999999999997</xz>
+				<yy>0.031358270000000001</yy>
+				<yz>-3.896e-05</yz>
+				<zz>0.00120798</zz>
+			</i>
+			<m>1.7</m>
+		</body>
+		<fixed id="fixed8">
+			<frame>
+				<a idref="RT4"/>
+				<b idref="frame7"/>
+			</frame>
+			<rotation>
+				<x>-90</x>
+				<y>0</y>
+				<z>0</z>
+			</rotation>
+			<translation>
+				<x>0</x>
+				<y>0.27747</y>
+				<z>0</z>
+			</translation>
+		</fixed>
+		<frame id="frame7"/>
+		<revolute id="A2.R3.J4">
+			<frame>
+				<a idref="frame7"/>
+				<b idref="RT5"/>
+			</frame>
+			<axis>
+				<x>0</x>
+				<y>0</y>
+				<z>1</z>
+			</axis>
+			<max>198.71635231642557</max>
+			<min>-18.716352316425571</min>
+			<speed>195</speed>
+		</revolute>
+		<!-- A2_wrist_RIGHT -->
+		<body id="RT5">
+			<ignore idref="RT4"/>
+			<ignore idref="RT6"/>
+			<cm>
+				<x>8.7719999999999994e-05</x>
+				<y>-0.0018379500000000001</y>
+				<z>-0.0018201000000000001</z>
+			</cm>
+			<i>
+				<xx>0.00011597</xx>
+				<xy>-4.9999999999999998e-08</xy>
+				<xz>4.0000000000000001e-08</xz>
+				<yy>0.00011378</yy>
+				<yz>-1.1999999999999999e-07</yz>
+				<zz>7.4969999999999995e-05</zz>
+			</i>
+			<m>0.21199999999999999</m>
+		</body>
+		<fixed id="fixed9">
+			<frame>
+				<a idref="RT5"/>
+				<b idref="frame8"/>
+			</frame>
+			<rotation>
+				<x>90</x>
+				<y>-90</y>
+				<z>0</z>
+			</rotation>
+			<translation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</translation>
+		</fixed>
+		<frame id="frame8"/>
+		<revolute id="A2.R3.J5">
+			<frame>
+				<a idref="frame8"/>
+				<b idref="RT6"/>
+			</frame>
+			<axis>
+				<x>0</x>
+				<y>0</y>
+				<z>1</z>
+			</axis>
+			<max>58.868339132027103</max>
+			<min>-58.868339132027103</min>
+			<speed>195</speed>
+		</revolute>
+		<!-- A2_w_differential_RIGHT -->
+		<body id="RT6">
+			<ignore idref="RT5"/>
+			<ignore idref="RT7"/>
+			<cm>
+				<x>3.0000000000000001e-05</x>
+				<y>-0.010919999999999999</y>
+				<z>0.0029199999999999999</z>
+			</cm>
+			<i>
+				<xx>9.4279999999999999e-05</xx>
+				<xy>2.0e-08</xy>
+				<xz>0.0</xz>
+				<yy>6.1329999999999997e-05</yy>
+				<yz>-7.4000000000000001e-07</yz>
+				<zz>5.0540000000000001e-05</zz>
+			</i>
+			<m>0.084000000000000005</m>
+		</body>
+		<fixed id="fixed10">
+			<frame>
+				<a idref="RT6"/>
+				<b idref="frame9"/>
+			</frame>
+			<rotation>
+				<x>90</x>
+				<y>-90</y>
+				<z>0</z>
+			</rotation>
+			<translation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</translation>
+		</fixed>
+		<frame id="frame9"/>
+		<revolute id="A2.R3.J6">
+			<frame>
+				<a idref="frame9"/>
+				<b idref="RT7"/>
+			</frame>
+			<axis>
+				<x>0</x>
+				<y>0</y>
+				<z>1</z>
+			</axis>
+			<max>60.867972898736497</max>
+			<min>-60.867972898736497</min>
+			<speed>195</speed>
+		</revolute>
+		<!-- A2_handmount_RIGHT -->
+		<body id="RT7">
+			<ignore idref="RT6"/>
+			<!-- without hand -->
+			<cm>
+				<x>0</x>
+				<y>0</y>
+				<z>0.04</z>
+			</cm>
+			<i>
+				<xx>1e-05</xx>
+				<xy>0</xy>
+				<xz>0</xz>
+				<yy>1e-05</yy>
+				<yz>0</yz>
+				<zz>1e-05</zz>
+			</i>
+			<m>0.020</m>
+			<!-- with hand H2
+			<cm>
+				<x>0.0028600399999999999</x>
+				<y>0.0020675400000000001</y>
+				<z>0.06242752</z>
+			</cm>
+			<i>
+				<xx>0.0048497100000000001</xx>
+				<xy>-3.5070000000000001e-05</xy>
+				<xz>7.6260000000000005e-05</xz>
+				<yy>0.0050755799999999997</yy>
+				<yz>9.2089999999999994e-05</yz>
+				<zz>0.00080672000000000003</zz>
+			</i>
+			<m>0.83799999999999997</m>
+			-->
+		</body>
+		<fixed id="fixed11">
+			<frame>
+				<a idref="RT7"/>
+				<b idref="RT8"/>
+			</frame>
+			<rotation>
+				<x>90</x>
+				<y>0</y>
+				<z>0</z>
+			</rotation>
+			<translation>
+				<x>0</x>
+				<y>-0.04414</y>
+				<z>0</z>
+			</translation>
+		</fixed>
+		<body id="RT8"/>
+	</model>
+</rlmdl>

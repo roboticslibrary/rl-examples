@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rlplan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="rlplan.xsd">
+	<rrtConCon>
+		<duration>1200</duration>
+		<goal>
+			<q>200.0</q>
+			<q>-70.57</q>
+			<q>-40.62</q>
+			<q unit="deg">90</q>
+			<q unit="deg">0</q>
+			<q unit="deg">0</q>
+		</goal>
+		<model>
+			<kinematics href="../rlkin/cubicles.xml"/>
+			<model>0</model>
+			<scene href="../rlsg/cubicles.xml"/>
+		</model>
+		<start>
+			<q>-4.96</q>
+			<q>-70.57</q>
+			<q>-40.62</q>
+			<q unit="deg">90</q>
+			<q unit="deg">0</q>
+			<q unit="deg">0</q>
+		</start>
+		<viewer>
+			<camera>
+				<position>
+					<x>-94.63</x>
+					<y>-1250</y>
+					<z>150.87</z>
+				</position>
+				<scale>1</scale>
+				<target>
+					<x>-94.63</x>
+					<y>0</y>
+					<z>150.87</z>
+				</target>
+				<up>
+					<x>0</x>
+					<y>0</y>
+					<z>1</z>
+				</up>
+			</camera>
+			<delta>1</delta>
+			<model>
+				<kinematics href="../rlkin/cubicles.xml"/>
+				<model>0</model>
+				<scene href="../rlsg/cubicles.xml"/>
+			</model>
+			<swept>100</swept>
+		</viewer>
+		<delta>1</delta>
+		<epsilon>1</epsilon>
+		<gnatNearestNeighbors/>
+		<uniformSampler/>
+	</rrtConCon>
+</rlplan>

@@ -32,11 +32,6 @@
 			<q unit="deg">0</q>
 		</start>
 		<viewer>
-			<background>
-				<r>0</r>
-				<g>0</g>
-				<b>0</b>
-			</background>
 			<camera>
 				<position>
 					<x>-1.25</x>
@@ -61,12 +56,9 @@
 				<model>0</model>
 				<scene href="../rlsg/uman_wall2.xml"/>
 			</model>
-			<size>
-				<height>768</height>
-				<width>1024</width>
-			</size>
-			<wait/>
+			<swept unit="deg">100</swept>
 		</viewer>
+		<gnatNearestNeighbors/>
 		<gaussianSampler>
 			<sigma>
 				<q>0.25</q>

@@ -28,7 +28,7 @@ Transform {
 		}
 		DEF link3 Transform {
 			rotation 0 0 1 3.141593
-			translation 0.15 0 1.17
+			translation 0.02 0 1.04
 			children [
 				Inline {
 					url "link3.wrl"
@@ -37,7 +37,7 @@ Transform {
 		}
 		DEF link4 Transform {
 			rotation 0 0.70710677 0.70710677 3.1415927
-			translation 0.15 0 1.81707
+			translation 0.02 0 1.68707
 			children [
 				Inline {
 					url "link4.wrl"
@@ -45,7 +45,7 @@ Transform {
 			]
 		}
 		DEF link5 Transform {
-			translation 0.15 0 1.81707
+			translation 0.02 0 1.68707
 			children [
 				Inline {
 					url "link5.wrl"
@@ -53,7 +53,7 @@ Transform {
 			]
 		}
 		DEF link6 Transform {
-			translation 0.15 0 1.91207
+			translation 0.02 0 1.78207
 			children [
 				Inline {
 					url "link6.wrl"

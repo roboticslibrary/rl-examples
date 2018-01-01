@@ -1,0 +1,12 @@
+#VRML V2.0 utf8
+Transform {
+	children [
+		DEF kuka-kr240-r2500-prime Transform {
+			children [
+				Inline {
+					url "kuka-kr240-r2500-prime/kuka-kr240-r2500-prime.wrl"
+				}			]
+		}
+	]
+}
+

@@ -118,7 +118,7 @@
 			</dh>
 			<max>180</max>
 			<min>-180</min>
-			<wraparound />
+			<wraparound/>
 		</revolute>
 		<link id="link4">
 			<ignore/>
@@ -163,7 +163,7 @@
 			</dh>
 			<max>180</max>
 			<min>-180</min>
-			<wraparound />
+			<wraparound/>
 		</revolute>
 		<link id="link6">
 			<ignore idref="link0"/>

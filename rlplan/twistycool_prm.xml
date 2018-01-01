@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rlplan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="rlplan.xsd">
+	<prm>
+		<duration>1200</duration>
+		<goal>
+			<q>270</q>
+			<q>400</q>
+			<q>160</q>
+			<q unit="deg">90</q>
+			<q unit="deg">0</q>
+			<q unit="deg">0</q>
+		</goal>
+		<model>
+			<kinematics href="../rlkin/twistycool.xml"/>
+			<model>0</model>
+			<scene href="../rlsg/twistycool.xml"/>
+		</model>
+		<start>
+			<q>270</q>
+			<q>200</q>
+			<q>160</q>
+			<q unit="deg">90</q>
+			<q unit="deg">0</q>
+			<q unit="deg">0</q>
+		</start>
+		<viewer>
+			<delta>1</delta>
+			<model>
+				<kinematics href="../rlkin/twistycool.xml"/>
+				<model>0</model>
+				<scene href="../rlsg/twistycool.xml"/>
+			</model>
+			<swept>100</swept>
+		</viewer>
+		<gnatNearestNeighbors/>
+		<uniformSampler/>
+		<recursiveVerifier>
+			<delta>1</delta>
+		</recursiveVerifier>
+	</prm>
+</rlplan>

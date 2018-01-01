@@ -37,11 +37,6 @@
 			<q unit="deg">0</q>
 		</start>
 		<viewer>
-			<background>
-				<r>0</r>
-				<g>0</g>
-				<b>0</b>
-			</background>
 			<camera>
 				<orthographic/>
 				<position>
@@ -80,14 +75,11 @@
 				<model>0</model>
 				<scene href="../rlsg/staeubli-tx60l_wall.xml"/>
 			</model>
-			<size>
-				<height>768</height>
-				<width>1024</width>
-			</size>
-			<wait/>
+			<swept unit="deg">100</swept>
 		</viewer>
 		<delta unit="deg">1</delta>
 		<epsilon>1e-9</epsilon>
+		<kdtreeNearestNeighbors/>
 		<uniformSampler/>
 	</rrtConCon>
 </rlplan>

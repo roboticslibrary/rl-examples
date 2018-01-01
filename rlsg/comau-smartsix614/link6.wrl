@@ -16,7 +16,7 @@ DEF link6 Transform {
                 Shape {
                   appearance Appearance {
                     material Material {
-                      diffuseColor 0.745098 0.745098 0.745098
+                      diffuseColor 0.000000 0.000000 0.000000
                       emissiveColor 0.000000 0.000000 0.000000
                       specularColor 0.752941 0.752941 0.752941
                       ambientIntensity 0.117647

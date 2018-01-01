@@ -1,0 +1,16 @@
+#VRML V2.0 utf8
+Transform {
+	children [
+		DEF universal-robots-ur5 Transform {
+			children [
+				Inline {
+					url "universal-robots-ur5/universal-robots-ur5.wrl"
+				}
+			]
+		}
+		DEF boxes Inline {
+			url "boxes.wrl"
+		}
+	]
+}
+

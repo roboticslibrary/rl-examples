@@ -90,7 +90,7 @@
 			</dh>
 			<max>180</max>
 			<min>-180</min>
-			<wraparound />
+			<wraparound/>
 		</revolute>
 		<link id="link3">
 			<ignore idref="link0"/>

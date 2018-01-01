@@ -3,8 +3,8 @@
 Group {
   children [ 
     DEF link5 Transform {
-      translation 1.17 0 -0.79707003
-      rotation -0 -1 -0  1.570796
+      translation -1.17 0 -0.79707
+      rotation 0.70710677 0 0.70710677 3.1415927
       children 
         Shape {
           appearance 

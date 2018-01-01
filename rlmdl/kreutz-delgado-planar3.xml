@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rlmdl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="rlmdl.xsd">
+	<model>
+		<manufacturer>Kreutz-Delgado</manufacturer>
+		<name>planar3</name>
+		<world id="frame0">
+			<g>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</g>
+			<rotation>
+				<x></x>
+				<y></y>
+				<z></z>
+			</rotation>
+			<translation>
+				<x></x>
+				<y></y>
+				<z></z>
+			</translation>
+		</world>
+		<frame id="frame1"/>
+		<body id="frame2">
+			<cm>
+				<x>0.5</x>
+				<y>0</y>
+				<z>0</z>
+			</cm>
+			<i>
+				<xx>1</xx>
+				<yy>1</yy>
+				<zz>1</zz>
+				<xy>0</xy>
+				<yz>0</yz>
+				<xz>0</xz>
+			</i>
+			<m>1</m>
+		</body>
+		<frame id="frame3"/>
+		<body id="frame4">
+			<cm>
+				<x>0.5</x>
+				<y>0</y>
+				<z>0</z>
+			</cm>
+			<i>
+				<xx>1</xx>
+				<yy>1</yy>
+				<zz>1</zz>
+				<xy>0</xy>
+				<yz>0</yz>
+				<xz>0</xz>
+			</i>
+			<m>1</m>
+		</body>
+		<frame id="frame5"/>
+		<body id="frame6">
+			<cm>
+				<x>0.5</x>
+				<y>0</y>
+				<z>0</z>
+			</cm>
+			<i>
+				<xx>1</xx>
+				<yy>1</yy>
+				<zz>1</zz>
+				<xy>0</xy>
+				<yz>0</yz>
+				<xz>0</xz>
+			</i>
+			<m>1</m>
+		</body>
+		<frame id="frame7"/>
+		<fixed id="link0">
+			<frame>
+				<a idref="frame0"/>
+				<b idref="frame1"/>
+			</frame>
+			<rotation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</rotation>
+			<translation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</translation>
+		</fixed>
+		<revolute id="joint0">
+			<frame>
+				<a idref="frame1"/>
+				<b idref="frame2"/>
+			</frame>
+			<max></max>
+			<min></min>
+			<offset></offset>
+			<speed></speed>
+		</revolute>
+		<fixed id="link1">
+			<frame>
+				<a idref="frame2"/>
+				<b idref="frame3"/>
+			</frame>
+			<rotation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</rotation>
+			<translation>
+				<x>1</x>
+				<y>0</y>
+				<z>0</z>
+			</translation>
+		</fixed>
+		<revolute id="joint1">
+			<frame>
+				<a idref="frame3"/>
+				<b idref="frame4"/>
+			</frame>
+			<max></max>
+			<min></min>
+			<offset></offset>
+			<speed></speed>
+		</revolute>
+		<fixed id="link2">
+			<frame>
+				<a idref="frame4"/>
+				<b idref="frame5"/>
+			</frame>
+			<rotation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</rotation>
+			<translation>
+				<x>1</x>
+				<y>0</y>
+				<z>0</z>
+			</translation>
+		</fixed>
+		<revolute id="joint2">
+			<frame>
+				<a idref="frame5"/>
+				<b idref="frame6"/>
+			</frame>
+			<max></max>
+			<min></min>
+			<offset></offset>
+			<speed></speed>
+		</revolute>
+		<fixed id="link3">
+			<frame>
+				<a idref="frame6"/>
+				<b idref="frame7"/>
+			</frame>
+			<rotation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</rotation>
+			<translation>
+				<x>1</x>
+				<y>0</y>
+				<z>0</z>
+			</translation>
+		</fixed>
+	</model>
+</rlmdl>

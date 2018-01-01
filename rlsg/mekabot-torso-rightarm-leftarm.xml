@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rlsg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="rlsg.xsd">
+	<scene href="mekabot-torso-rightarm-leftarm.wrl">
+		<model name="mekabot">
+			<body name="T2R3_TJ0_base"/>
+			<body name="T2R3_TJ1_pan"/>
+			<body name="T2R3_TJ2"/>
+			<body name="T2R3_TJ3"/>
+			<body name="A2R3_T4_Chest"/>
+			<body name="Right_A2R3_RT1_shoulderRoll"/>
+			<body name="Right_A2R3_RT2_shoulderPitch"/>
+			<body name="Right_A2R3_RT3_bicep"/>
+			<body name="Right_A2R3_RT4_elbow"/>
+			<body name="Right_A2R3_T5_forearmRoll"/>
+			<body name="Right_A2R3_T6_wristDiff"/>
+			<body name="Right_A2R3_T7_wristYaw"/>
+			<body name="RT8"/>
+			<body name="Left_A2R3_LT1_shoulderRoll"/>
+			<body name="Left_A2R3_LT2_shoulderPitch"/>
+			<body name="Left_A2R3_LT3_bicep"/>
+			<body name="Left_A2R3_LT4_elbow"/>
+			<body name="Left_A2R3_T5_forearmRoll"/>
+			<body name="Left_A2R3_T6_wristDiff"/>
+			<body name="Left_A2R3_T7_wristYaw"/>
+			<body name="LT8"/>
+		</model>
+	</scene>
+</rlsg>

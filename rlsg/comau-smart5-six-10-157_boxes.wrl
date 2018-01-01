@@ -1,0 +1,14 @@
+#VRML V2.0 utf8
+Transform {
+	children [
+		DEF comau-smart5-six-10-157 Transform {
+			children [
+				Inline {
+					url "comau-smart5-six-10-157/comau-smart5-six-10-157.wrl"
+				}			]
+		}
+		DEF boxes Inline {
+			url "boxes.wrl"
+		}	]
+}
+

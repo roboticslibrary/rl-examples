@@ -1,0 +1,30 @@
+#VRML V2.0 utf8
+Transform {
+	children [
+		DEF rml Transform {
+			children [
+				Inline {
+					url "../comau-rml/comau-rml.wrl"
+				}
+			]
+		}
+		DEF left Transform {
+			rotation -0.532254 0.760138 0.372688 2.16336 # 2 1 0 -110 70 180
+			translation 1.85642 0.14128 2.09387
+			children [
+				Inline {
+					url "../comau-smart5-six-10-157/comau-smart5-six-10-157.wrl"
+				}
+			]
+		}
+		DEF right Transform {
+			rotation 0.532254  0.760138 -0.372688 2.16336 # 2 1 0 110 70 180
+			translation 1.85642 -0.14128 2.09387
+			children [
+				Inline {
+					url "../comau-smart5-six-10-157/comau-smart5-six-10-157.wrl"
+				}
+			]
+		}
+	]
+}

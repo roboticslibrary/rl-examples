@@ -1,0 +1,16 @@
+#VRML V2.0 utf8
+Transform {
+	children [
+		DEF kuka-lbr-iiwa-7-r800 Transform {
+			children [
+				Inline {
+					url "kuka-lbr-iiwa-7-r800/kuka-lbr-iiwa-7-r800.wrl"
+				}
+			]
+		}
+		DEF boxes Inline {
+			url "boxes.wrl"
+		}
+	]
+}
+

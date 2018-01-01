@@ -1,0 +1,354 @@
+#VRML V2.0 utf8
+Transform {
+	children [
+		DEF mekabot Transform {
+			children [
+				DEF T2R3_TJ0_base Transform {
+					children [
+						Inline {
+							url "mekabot/T2R3/T2R3_TJ0_base.wrl"
+						}
+					]
+				}
+				DEF T2R3_TJ1_pan Transform {
+					children [
+						Inline {
+							url "mekabot/T2R3/T2R3_TJ1_pan.wrl"
+						}
+					]
+				}
+				DEF T2R3_TJ2 Transform {
+					children [
+						Inline {
+							url "mekabot/T2R3/T2R3_TJ2.wrl"
+						}
+					]
+				}
+				DEF T2R3_TJ3 Transform {
+					children [
+						Inline {
+							url "mekabot/T2R3/T2R3_TJ3.wrl"
+						}
+					]
+				}
+				DEF A2R3_T4_Chest Transform {
+					children [
+						Inline {
+							url "mekabot/A2R3/A2R3_T4_Chest.wrl"
+						}
+					]
+				}
+				DEF Right_A2R3_RT1_shoulderRoll Transform {
+					children [
+						Inline {
+							url "mekabot/A2R3/A2R3_RT1_shoulderRoll.wrl"
+						}
+					]
+				}
+				DEF Right_A2R3_RT2_shoulderPitch Transform {
+					children [
+						Inline {
+							url "mekabot/A2R3/A2R3_RT2_shoulderPitch.wrl"
+						}
+					]
+				}
+				DEF Right_A2R3_RT3_bicep Transform {
+					children [
+						Inline {
+							url "mekabot/A2R3/A2R3_RT3_bicep.wrl"
+						}
+					]
+				}
+				DEF Right_A2R3_RT4_elbow Transform {
+					children [
+						Inline {
+							url "mekabot/A2R3/A2R3_RT4_elbow.wrl"
+						}
+					]
+				}
+				DEF Right_A2R3_T5_forearmRoll Transform {
+					children [
+						Inline {
+							url "mekabot/A2R3/A2R3_T5_forearmRoll.wrl"
+						}
+					]
+				}
+				DEF Right_A2R3_T6_wristDiff Transform {
+					children [
+						Inline {
+							url "mekabot/A2R3/A2R3_T6_wristDiff.wrl"
+						}
+					]
+				}
+				DEF Right_A2R3_T7_wristYaw Transform {
+					children [
+						Inline {
+							url "mekabot/A2R3/A2R3_T7_wristYaw.wrl"
+						}
+					]
+				}
+				DEF Right_H2R3_RT8_palm_right Transform {
+					children [
+						Inline {
+							url "mekabot/H2R3/H2R3_RT8_palm_right.wrl"
+						}
+					]
+				}
+				DEF Right_H2R3_RJ0_thumb_abductlink Transform {
+					children [
+						Inline {
+							url "mekabot/H2R3/H2R3_RJ0_thumb_abductlink.wrl"
+						}
+					]
+				}
+				DEF Right_H2R3_thumb_knuckle1 Transform {
+					children [
+						Inline {
+							url "mekabot/H2R3/H2R3_thumb_knuckle1.wrl"
+						}
+					]
+				}
+				DEF Right_H2R3_thumb_knuckle2 Transform {
+					children [
+						Inline {
+							url "mekabot/H2R3/H2R3_thumb_knuckle2.wrl"
+						}
+					]
+				}
+				DEF Right_H2R3_fore_finger_knuckle1 Transform {
+					children [
+						Inline {
+							url "mekabot/H2R3/H2R3_finger_knuckle1.wrl"
+						}
+					]
+				}
+				DEF Right_H2R3_fore_finger_knuckle2 Transform {
+					children [
+						Inline {
+							url "mekabot/H2R3/H2R3_finger_knuckle2.wrl"
+						}
+					]
+				}
+				DEF Right_H2R3_fore_finger_knuckle3 Transform {
+					children [
+						Transform {
+							rotation 1 0 0 -1.570796
+							children [
+								Inline {
+									url "mekabot/H2R3/H2R3_finger_knuckle3.wrl"
+								}
+							]
+						}
+					]
+				}
+				DEF Right_H2R3_middle_finger_knuckle1 Transform {
+					children [
+						Inline {
+							url "mekabot/H2R3/H2R3_finger_knuckle1.wrl"
+						}
+					]
+				}
+				DEF Right_H2R3_middle_finger_knuckle2 Transform {
+					children [
+						Inline {
+							url "mekabot/H2R3/H2R3_finger_knuckle2.wrl"
+						}
+					]
+				}
+				DEF Right_H2R3_middle_finger_knuckle3 Transform {
+					children [
+						Transform {
+							rotation 1 0 0 -1.570796
+							children [
+								Inline {
+									url "mekabot/H2R3/H2R3_finger_knuckle3.wrl"
+								}
+							]
+						}
+					]
+				}
+				DEF Right_H2R3_ring_finger_knuckle1 Transform {
+					children [
+						Inline {
+							url "mekabot/H2R3/H2R3_finger_knuckle1.wrl"
+						}
+					]
+				}
+				DEF Right_H2R3_ring_finger_knuckle2 Transform {
+					children [
+						Inline {
+							url "mekabot/H2R3/H2R3_finger_knuckle2.wrl"
+						}
+					]
+				}
+				DEF Right_H2R3_ring_finger_knuckle3 Transform {
+					children [
+						Transform {
+							rotation 1 0 0 -1.570796
+							children [
+								Inline {
+									url "mekabot/H2R3/H2R3_finger_knuckle3.wrl"
+								}
+							]
+						}
+					]
+				}
+				DEF Left_A2R3_LT1_shoulderRoll Transform {
+					children [
+						Inline {
+							url "mekabot/A2R3/A2R3_LT1_shoulderRoll.wrl"
+						}
+					]
+				}
+				DEF Left_A2R3_LT2_shoulderPitch Transform {
+					children [
+						Inline {
+							url "mekabot/A2R3/A2R3_LT2_shoulderPitch.wrl"
+						}
+					]
+				}
+				DEF Left_A2R3_LT3_bicep Transform {
+					children [
+						Inline {
+							url "mekabot/A2R3/A2R3_LT3_bicep.wrl"
+						}
+					]
+				}
+				DEF Left_A2R3_LT4_elbow Transform {
+					children [
+						Inline {
+							url "mekabot/A2R3/A2R3_LT4_elbow.wrl"
+						}
+					]
+				}
+				DEF Left_A2R3_T5_forearmRoll Transform {
+					children [
+						Inline {
+							url "mekabot/A2R3/A2R3_T5_forearmRoll.wrl"
+						}
+					]
+				}
+				DEF Left_A2R3_T6_wristDiff Transform {
+					children [
+						Inline {
+							url "mekabot/A2R3/A2R3_T6_wristDiff.wrl"
+						}
+					]
+				}
+				DEF Left_A2R3_T7_wristYaw Transform {
+					children [
+						Inline {
+							url "mekabot/A2R3/A2R3_T7_wristYaw.wrl"
+						}
+					]
+				}
+				DEF Left_H2R3_LT8_palm_left Transform {
+					children [
+						Inline {
+							url "mekabot/H2R3/H2R3_LT8_palm_left.wrl"
+						}
+					]
+				}
+				DEF Left_H2R3_RJ0_thumb_abductlink Transform {
+					children [
+						Inline {
+							url "mekabot/H2R3/H2R3_RJ0_thumb_abductlink.wrl"
+						}
+					]
+				}
+				DEF Left_H2R3_thumb_knuckle1 Transform {
+					children [
+						Inline {
+							url "mekabot/H2R3/H2R3_thumb_knuckle1.wrl"
+						}
+					]
+				}
+				DEF Left_H2R3_thumb_knuckle2 Transform {
+					children [
+						Inline {
+							url "mekabot/H2R3/H2R3_thumb_knuckle2.wrl"
+						}
+					]
+				}
+				DEF Left_H2R3_fore_finger_knuckle1 Transform {
+					children [
+						Inline {
+							url "mekabot/H2R3/H2R3_finger_knuckle1.wrl"
+						}
+					]
+				}
+				DEF Left_H2R3_fore_finger_knuckle2 Transform {
+					children [
+						Inline {
+							url "mekabot/H2R3/H2R3_finger_knuckle2.wrl"
+						}
+					]
+				}
+				DEF Left_H2R3_fore_finger_knuckle3 Transform {
+					children [
+						Transform {
+							rotation 1 0 0 -1.570796
+							children [
+								Inline {
+									url "mekabot/H2R3/H2R3_finger_knuckle3.wrl"
+								}
+							]
+						}
+					]
+				}
+				DEF Left_H2R3_middle_finger_knuckle1 Transform {
+					children [
+						Inline {
+							url "mekabot/H2R3/H2R3_finger_knuckle1.wrl"
+						}
+					]
+				}
+				DEF Left_H2R3_middle_finger_knuckle2 Transform {
+					children [
+						Inline {
+							url "mekabot/H2R3/H2R3_finger_knuckle2.wrl"
+						}
+					]
+				}
+				DEF Left_H2R3_middle_finger_knuckle3 Transform {
+					children [
+						Transform {
+							rotation 1 0 0 -1.570796
+							children [
+								Inline {
+									url "mekabot/H2R3/H2R3_finger_knuckle3.wrl"
+								}
+							]
+						}
+					]
+				}
+				DEF Left_H2R3_ring_finger_knuckle1 Transform {
+					children [
+						Inline {
+							url "mekabot/H2R3/H2R3_finger_knuckle1.wrl"
+						}
+					]
+				}
+				DEF Left_H2R3_ring_finger_knuckle2 Transform {
+					children [
+						Inline {
+							url "mekabot/H2R3/H2R3_finger_knuckle2.wrl"
+						}
+					]
+				}
+				DEF Left_H2R3_ring_finger_knuckle3 Transform {
+					children [
+						Transform {
+							rotation 1 0 0 -1.570796
+							children [
+								Inline {
+									url "mekabot/H2R3/H2R3_finger_knuckle3.wrl"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

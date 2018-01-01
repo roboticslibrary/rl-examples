@@ -1,0 +1,252 @@
+#VRML V2.0 utf8
+Transform {
+	children [
+		DEF robot Transform {
+			translation 274.969 297.105 165.5
+			rotation 0.999715 -0.023871 0 3.141593
+			children [
+				DEF link0 Transform {
+					children [
+					]
+				}
+				DEF link1 Transform {
+					children [
+					]
+				}
+				DEF link2 Transform {
+					children [
+					]
+				}
+				DEF link3 Transform {
+					children [
+					]
+				}
+				DEF link4 Transform {
+					children [
+					]
+				}
+				DEF link5 Transform {
+					children [
+					]
+				}
+				DEF body1 Transform {
+					children [
+						Transform {
+							translation -16.875 17.625 -4.25
+							children [
+								Shape {
+									appearance Appearance {
+										material Material {
+											diffuseColor 0.678 0 0.016
+										}
+									}
+									geometry Box {
+										size 11.75 11.75 54
+									}
+								}
+							]
+						}
+						Transform {
+							translation -16.875 -0.5 16.875
+							children [
+								Shape {
+									appearance Appearance {
+										material Material {
+											diffuseColor 0.678 0 0.016
+										}
+									}
+									geometry Box {
+										size 11.75 24.5 11.75
+									}
+								}
+							]
+						}
+						Transform {
+							translation 4.75 -18.625 16.875
+							children [
+								Shape {
+									appearance Appearance {
+										material Material {
+											diffuseColor 0.678 0 0.016
+										}
+									}
+									geometry Box {
+										size 55 11.75 11.75
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+		DEF env Transform {
+			translation 103.21 293.855 0
+			children [
+				Transform {
+					children [
+						Transform {
+							translation -41.25 5.125 -10
+							children [
+								Transform {
+									translation 88.7072 0 165.375
+									children [
+										Shape {
+											appearance Appearance {
+												material Material {
+													diffuseColor 0.192 0.494 0.722
+												}
+											}
+											geometry Box {
+												size 177.4144 10.25 330.75
+											}
+										}
+									]
+								}
+								Transform {
+									translation 201.6644 0 70.1655
+									children [
+										Shape {
+											appearance Appearance {
+												material Material {
+													diffuseColor 0.192 0.494 0.722
+												}
+											}
+											geometry Box {
+												size 48.5 10.25 140.331
+											}
+										}
+									]
+								}
+								Transform {
+									translation 201.6644 0 260.1655
+									children [
+										Shape {
+											appearance Appearance {
+												material Material {
+													diffuseColor 0.192 0.494 0.722
+												}
+											}
+											geometry Box {
+												size 48.5 10.25 141.1690
+											}
+										}
+									]
+								}
+								Transform {
+									translation 310.5822 0 165.375
+									children [
+										Shape {
+											appearance Appearance {
+												material Material {
+													diffuseColor 0.192 0.494 0.722
+												}
+											}
+											geometry Box {
+												size 169.3356 10.25 330.75
+											}
+										}
+									]
+								}
+							]
+						}
+						Transform {
+							translation -65 -4.125 148.25
+							children [
+								Shape {
+									appearance Appearance {
+										material Material {
+											diffuseColor 0.192 0.494 0.722
+										}
+									}
+									geometry Box {
+										size 47.5 430.25 345
+									}
+								}
+							]
+						}
+						Transform {
+							translation 156.375 -4.125 -17.125
+							children [
+								Shape {
+									appearance Appearance {
+										material Material {
+											diffuseColor 0.192 0.494 0.722
+										}
+									}
+									geometry Box {
+										size 395.25 430.25 14.25
+									}
+								}
+							]
+						}
+						Transform {
+							translation 156.375 -224.375 155.375
+							children [
+								Shape {
+									appearance Appearance {
+										material Material {
+											diffuseColor 0.192 0.494 0.722
+											transparency 1
+										}
+									}
+									geometry Box {
+										size 395.25 10.25 330.75
+									}
+								}
+							]
+						}
+						Transform {
+							translation 156.375 216.125 155.375
+							children [
+								Shape {
+									appearance Appearance {
+										material Material {
+											diffuseColor 0.192 0.494 0.722
+											transparency 1
+										}
+									}
+									geometry Box {
+										size 395.25 10.25 330.75
+									}
+								}
+							]
+						}
+						Transform {
+							translation 156.375 -4.125 327.875
+							children [
+								Shape {
+									appearance Appearance {
+										material Material {
+											diffuseColor 0.192 0.494 0.722
+											transparency 1
+										}
+									}
+									geometry Box {
+										size 395.25 430.25 14.25
+									}
+								}
+							]
+						}
+						Transform {
+							translation 377.75 -4.125 148.25
+							children [
+								Shape {
+									appearance Appearance {
+										material Material {
+											diffuseColor 0.192 0.494 0.722
+											transparency 1
+										}
+									}
+									geometry Box {
+										size 47.5 430.25 345
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

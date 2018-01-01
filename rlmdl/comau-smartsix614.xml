@@ -29,17 +29,59 @@
 		<body id="body1">
 			<ignore idref="body0"/>
 			<ignore idref="body2"/>
+			<cm>
+				<x>-0.094071</x>
+				<y>0.130444</y>
+				<z>0.036707</z>
+			</cm>
+			<i>
+				<xx>1.09316</xx>
+				<xy>0.212579</xy>
+				<xz>-0.0816625</xz>
+				<yy>1.0694</yy>
+				<yz>0.0817752</yz>
+				<zz>1.134</zz>
+			</i>
+			<m>61.3402</m>
 		</body>
 		<frame id="frame2"/>
 		<body id="body2">
 			<ignore idref="body1"/>
 			<ignore idref="body3"/>
 			<ignore idref="body4"/>
+			<cm>
+				<x>-0.772204</x>
+				<y>-0.008737</y>
+				<z>-0.126686</z>
+			</cm>
+			<i>
+				<xx>0.196121</xx>
+				<xy>0.117379</xy>
+				<xz>1.49444</xz>
+				<yy>1.23785</yy>
+				<yz>-0.0167212</yz>
+				<zz>1.15129</zz>
+			</i>
+			<m>27.9619</m>
 		</body>
 		<frame id="frame3"/>
 		<body id="body3">
 			<ignore idref="body2"/>
 			<ignore idref="body4"/>
+			<cm>
+				<x>-0.066357</x>
+				<y>-0.007484</y>
+				<z>-0.022166</z>
+			</cm>
+			<i>
+				<xx>0.225901</xx>
+				<xy>-0.0186763</xy>
+				<xz>0.0339387</xz>
+				<yy>0.193807</yy>
+				<yz>0.000960006</yz>
+				<zz>0.286582</zz>
+			</i>
+			<m>20.6281</m>
 		</body>
 		<frame id="frame4"/>
 		<frame id="frame5"/>
@@ -48,16 +90,58 @@
 			<ignore idref="body3"/>
 			<ignore idref="body5"/>
 			<ignore idref="body6"/>
+			<cm>
+				<x>-0.012723</x>
+				<y>-0.481703</y>
+				<z>-0.002977</z>
+			</cm>
+			<i>
+				<xx>0.996336</xx>
+				<xy>-0.0407252</xy>
+				<xz>-0.0051468</xz>
+				<yy>0.0840833</yy>
+				<yz>-0.00390877</yz>
+				<zz>1.01913</zz>
+			</i>
+			<m>19.701</m>
 		</body>
 		<frame id="frame6"/>
 		<body id="body5">
 			<ignore idref="body4"/>
 			<ignore idref="body6"/>
+			<cm>
+				<x>-0.004257</x>
+				<y>0.006844</y>
+				<z>0.015694</z>
+			</cm>
+			<i>
+				<xx>0.00327466</xx>
+				<xy>-5.48721e-005</xy>
+				<xz>0.000579</xz>
+				<yy>0.00312169</yy>
+				<yz>0.00021104</yz>
+				<zz>0.00293473</zz>
+			</i>
+			<m>2.02067</m>
 		</body>
 		<frame id="frame7"/>
 		<body id="body6">
 			<ignore idref="body4"/>
 			<ignore idref="body5"/>
+			<cm>
+				<x>0.000335</x>
+				<y>-3.4e-005</y>
+				<z>-0.007537</z>
+			</cm>
+			<i>
+				<xx>6.61873e-005</xx>
+				<xy>-2.7468e-009</xy>
+				<xz>6.5984e-008</xz>
+				<yy>6.01605e-005</yy>
+				<yz>2.82855e-007</yz>
+				<zz>0.000117973</zz>
+			</i>
+			<m>0.241159</m>
 		</body>
 		<frame id="frame8"/>
 		<fixed id="fixed0">
@@ -238,9 +322,9 @@
 				<b idref="body5"/>
 			</frame>
 			<rotation>
-				<x>90</x>
+				<x>-90</x>
 				<y>0</y>
-				<z>180</z>
+				<z>0</z>
 			</rotation>
 			<translation>
 				<x>0</x>
@@ -256,7 +340,7 @@
 			<rotation>
 				<x>0</x>
 				<y>0</y>
-				<z>0</z>
+				<z>180</z>
 			</rotation>
 			<translation>
 				<x>0</x>
@@ -294,5 +378,13 @@
 				<z>0</z>
 			</translation>
 		</fixed>
+		<home>
+			<q unit="deg">0</q>
+			<q unit="deg">0</q>
+			<q unit="deg">-90</q>
+			<q unit="deg">0</q>
+			<q unit="deg">0</q>
+			<q unit="deg">0</q>
+		</home>
 	</model>
 </rlmdl>

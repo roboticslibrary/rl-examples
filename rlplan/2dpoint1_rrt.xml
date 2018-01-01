@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rlplan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="rlplan.xsd">
+	<rrt>
+		<duration>120</duration>
+		<goal>
+			<q>97</q>
+			<q>97</q>
+		</goal>
+		<model>
+			<kinematics href="../rlkin/2dpoint1.xml"/>
+			<model>0</model>
+			<scene href="../rlsg/2dpoint1.xml"/>
+		</model>
+		<start>
+			<q>97</q>
+			<q>3</q>
+		</start>
+		<viewer>
+			<camera>
+				<orthographic/>
+			</camera>
+			<delta>1</delta>
+			<model>
+				<kinematics href="../rlkin/2dpoint1.xml"/>
+				<model>0</model>
+				<scene href="../rlsg/2dpoint1.xml"/>
+			</model>
+			<swept>5</swept>
+		</viewer>
+		<delta>1</delta>
+		<epsilon>1</epsilon>
+		<kdtreeNearestNeighbors/>
+		<uniformSampler/>
+	</rrt>
+</rlplan>
