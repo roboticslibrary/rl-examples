@@ -318,13 +318,5 @@
 				<z>0</z>
 			</translation>
 		</fixed>
-		<home>
-			<q unit="deg">0</q>
-			<q unit="deg">0</q>
-			<q unit="deg">0</q>
-			<q unit="deg">0</q>
-			<q unit="deg">0</q>
-			<q unit="deg">0</q>
-		</home>
 	</model>
 </rlmdl>
