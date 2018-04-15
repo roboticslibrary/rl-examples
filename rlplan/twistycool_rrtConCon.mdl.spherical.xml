@@ -7,9 +7,9 @@
 			<q>400</q>
 			<q>160</q>
 			<q>0.70710678</q>
+			<q>0</q>
+			<q>0</q>
 			<q>0.70710678</q>
-			<q>0</q>
-			<q>0</q>
 		</goal>
 		<model>
 			<kinematics href="../rlmdl/twistycool.spherical.xml" type="mdl"/>
@@ -21,9 +21,9 @@
 			<q>200</q>
 			<q>160</q>
 			<q>0.70710678</q>
+			<q>0</q>
+			<q>0</q>
 			<q>0.70710678</q>
-			<q>0</q>
-			<q>0</q>
 		</start>
 		<viewer>
 			<delta>1</delta>

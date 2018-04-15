@@ -7,9 +7,9 @@
 			<q>-70.57</q>
 			<q>-40.62</q>
 			<q>0.70710678</q>
+			<q>0</q>
+			<q>0</q>
 			<q>0.70710678</q>
-			<q>0</q>
-			<q>0</q>
 		</goal>
 		<model>
 			<kinematics href="../rlmdl/cubicles.spherical.xml" type="mdl"/>
@@ -21,9 +21,9 @@
 			<q>-70.57</q>
 			<q>-40.62</q>
 			<q>0.70710678</q>
+			<q>0</q>
+			<q>0</q>
 			<q>0.70710678</q>
-			<q>0</q>
-			<q>0</q>
 		</start>
 		<viewer>
 			<camera>
