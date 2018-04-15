@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rlsg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="rlsg.xsd">
+	<scene href="cubicles.wrl">
+		<model name="robot">
+			<body name="body1"/>
+		</model>
+		<model name="env">
+			<body name=""/>
+		</model>
+	</scene>
+</rlsg>

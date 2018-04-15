@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rlmdl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="rlmdl.xsd">
+	<model>
+		<manufacturer></manufacturer>
+		<name>6D Box (3.0m x 0.5m x 0.5m)</name>
+		<world id="world">
+			<rotation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</rotation>
+			<translation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</translation>
+			<g>
+				<x>0</x>
+				<y>0</y>
+				<z>9.86055</z>
+			</g>
+		</world>
+		<fixed id="base">
+			<frame>
+				<a idref="world"/>
+				<b idref="frame0"/>
+			</frame>
+			<rotation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</rotation>
+			<translation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</translation>
+		</fixed>
+		<frame id="frame0"/>
+		<prismatic id="joint0">
+			<frame>
+				<a idref="frame0"/>
+				<b idref="frame1"/>
+			</frame>
+			<axis>
+				<x>1</x>
+				<y>0</y>
+				<z>0</z>
+			</axis>
+			<max>30</max>
+			<min>0</min>
+		</prismatic>
+		<frame id="frame1"/>
+		<prismatic id="joint1">
+			<frame>
+				<a idref="frame1"/>
+				<b idref="frame2"/>
+			</frame>
+			<axis>
+				<x>0</x>
+				<y>1</y>
+				<z>0</z>
+			</axis>
+			<max>30</max>
+			<min>0</min>
+		</prismatic>
+		<frame id="frame2"/>
+		<prismatic id="joint2">
+			<frame>
+				<a idref="frame2"/>
+				<b idref="frame3"/>
+			</frame>
+			<axis>
+				<x>0</x>
+				<y>0</y>
+				<z>1</z>
+			</axis>
+			<max>2</max>
+			<min>0</min>
+		</prismatic>
+		<frame id="frame3"/>
+		<spherical id="joint3">
+			<frame>
+				<a idref="frame3"/>
+				<b idref="body1"/>
+			</frame>
+		</spherical>
+		<body id="body1"/>
+		<fixed id="tool">
+			<frame>
+				<a idref="body1"/>
+				<b idref="tcp"/>
+			</frame>
+			<rotation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</rotation>
+			<translation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</translation>
+		</fixed>
+		<frame id="tcp"/>
+	</model>
+</rlmdl>
