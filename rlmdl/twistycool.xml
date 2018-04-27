@@ -20,26 +20,9 @@
 				<z>9.86055</z>
 			</g>
 		</world>
-		<fixed id="base">
-			<frame>
-				<a idref="world"/>
-				<b idref="frame0"/>
-			</frame>
-			<rotation>
-				<x>0</x>
-				<y>0</y>
-				<z>0</z>
-			</rotation>
-			<translation>
-				<x>0</x>
-				<y>0</y>
-				<z>0</z>
-			</translation>
-		</fixed>
-		<frame id="frame0"/>
 		<prismatic id="joint0">
 			<frame>
-				<a idref="frame0"/>
+				<a idref="world"/>
 				<b idref="frame1"/>
 			</frame>
 			<axis>
@@ -123,22 +106,5 @@
 			<wraparound/>
 		</revolute>
 		<body id="body1"/>
-		<fixed id="tool">
-			<frame>
-				<a idref="body1"/>
-				<b idref="tcp"/>
-			</frame>
-			<rotation>
-				<x>0</x>
-				<y>0</y>
-				<z>0</z>
-			</rotation>
-			<translation>
-				<x>0</x>
-				<y>0</y>
-				<z>0</z>
-			</translation>
-		</fixed>
-		<frame id="tcp"/>
 	</model>
 </rlmdl>
