@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rlsg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="rlsg.xsd">
+	<scene href="piano_room.wrl">
+		<model name="piano">
+			<body name="body1"/>
+		</model>
+		<model name="room">
+			<body name=""/>
+		</model>
+	</scene>
+</rlsg>

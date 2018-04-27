@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rlmdl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="rlmdl.xsd">
+	<model>
+		<manufacturer></manufacturer>
+		<name>Alpha-Puzzle</name>
+		<world id="world">
+			<rotation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</rotation>
+			<translation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</translation>
+			<g>
+				<x>0</x>
+				<y>0</y>
+				<z>9.86055</z>
+			</g>
+		</world>
+		<sixDof id="joint0">
+			<frame>
+				<a idref="world"/>
+				<b idref="body1"/>
+			</frame>
+			<max>10</max>
+			<max>10</max>
+			<max>10</max>
+			<min>-10</min>
+			<min>-10</min>
+			<min>-10</min>
+		</sixDof>
+		<body id="body1"/>
+	</model>
+</rlmdl>

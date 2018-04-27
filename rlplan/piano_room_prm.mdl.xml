@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rlplan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="rlplan.xsd">
+	<prm>
+		<duration>1200</duration>
+		<goal>
+			<q>-4.25</q>
+			<q>3</q>
+			<q>0.7</q>
+			<q>0</q>
+			<q>0</q>
+			<q>0.70710678</q>
+			<q>0.70710678</q>
+		</goal>
+		<model>
+			<kinematics href="../rlmdl/piano.xml" type="mdl"/>
+			<model>0</model>
+			<scene href="../rlsg/piano_room.convex.mdl.xml"/>
+		</model>
+		<start>
+			<q>-4</q>
+			<q>-3.5</q>
+			<q>0.7</q>
+			<q>0</q>
+			<q>0</q>
+			<q>0.38268343</q>
+			<q>0.92387953</q>
+		</start>
+		<viewer>
+			<delta unit="deg">1</delta>
+			<model>
+				<kinematics href="../rlmdl/piano.xml" type="mdl"/>
+				<model>0</model>
+				<scene href="../rlsg/piano_room.mdl.xml"/>
+			</model>
+			<swept unit="deg">100</swept>
+		</viewer>
+		<gnatNearestNeighbors/>
+		<uniformSampler/>
+		<recursiveVerifier>
+			<delta unit="deg">1</delta>
+		</recursiveVerifier>
+	</prm>
+</rlplan>
