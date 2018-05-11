@@ -133,6 +133,7 @@
 			</axis>
 			<max>-5</max>
 			<min>-140</min>
+			<offset>90</offset>
 			<speed>107</speed>
 		</revolute>
 		<fixed id="fixed3">
@@ -163,6 +164,7 @@
 			</axis>
 			<max>155</max>
 			<min>-120</min>
+			<offset>-90</offset>
 			<speed>114</speed>
 		</revolute>
 		<fixed id="fixed4">
@@ -287,5 +289,13 @@
 				<z>0</z>
 			</translation>
 		</fixed>
+		<home>
+			<q unit="deg">0</q>
+			<q unit="deg">-90</q>
+			<q unit="deg">90</q>
+			<q unit="deg">0</q>
+			<q unit="deg">0</q>
+			<q unit="deg">0</q>
+		</home>
 	</model>
 </rlmdl>
