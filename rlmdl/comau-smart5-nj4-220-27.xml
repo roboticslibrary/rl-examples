@@ -296,7 +296,7 @@
 			<q unit="deg">0</q>
 			<q unit="deg">0</q>
 		</home>
-		<gamma>
+		<gammaPosition>
 			<row>
 				<col>1</col>
 				<col>0</col>
@@ -345,6 +345,6 @@
 				<col>0</col>
 				<col>1</col>
 			</row>
-		</gamma>
+		</gammaPosition>
 	</model>
 </rlmdl>
