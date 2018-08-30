@@ -1,0 +1,28 @@
+#VRML V2.0 utf8
+
+DEF link5 Transform {
+	rotation 1 0 0 -1.570796
+	children [
+		Transform {
+			translation 0 -0.0715 0
+			rotation 0 1 0 1.570796
+			children [
+				Transform {
+					children [
+						Inline {
+							url "small-bracket-with-base-plug-and-side-plug.wrl"
+						}
+					]
+				}
+			]
+		}
+		Transform {
+			translation 0 -0.0845 0
+			children [
+				Inline {
+					url "small-mould.wrl"
+				}
+			]
+		}
+	]
+}

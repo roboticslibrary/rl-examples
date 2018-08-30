@@ -1,0 +1,49 @@
+#VRML V2.0 utf8
+
+DEF link1 Transform {
+	rotation 1 0 0 1.570796
+	children [
+		Transform {
+			translation 0 -0.075 0
+			rotation 0 1 0 1.570796
+			children [
+				Transform {
+					children [
+						Inline {
+							url "big-bracket-with-base-plug-and-side-plug.wrl"
+						}
+					]
+				}
+			]
+		}
+		Transform {
+			translation 0 -0.088 0
+			children [
+				Transform {
+					translation 0 -0.016 0
+					rotation 0 1 0 0.52359878
+					children [
+						Inline {
+							url "big-mould.wrl"
+						}
+					]
+				}
+			]
+		}
+		Transform {
+			translation 0 0 0.057
+			rotation 1 0 0 1.570796
+			children [
+				Transform {
+					translation 0 -0.016 0
+					rotation 0 1 0 0.52359878
+					children [
+						Inline {
+							url "big-mould.wrl"
+						}
+					]
+				}
+			]
+		}
+	]
+}
