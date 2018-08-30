@@ -1,0 +1,215 @@
+#VRML V2.0 utf8
+
+DEF link3 Transform {
+	rotation 1 0 0 -1.570796
+	children [
+		Transform {
+			translation 0 -0.075 0
+			rotation 0 1 0 1.570796
+			children [
+				Transform {
+					children [
+						Inline {
+							url "big-bracket.wrl"
+						}
+					]
+				}
+				Transform {
+					translation -0.0221 0.028 0
+					rotation 0 0 1 -1.570796
+					children [
+						Transform {
+							translation 0 0 0.029
+							children [
+								Inline {
+									url "flange-screw.wrl"
+								}
+							]
+						}
+						Transform {
+							translation 0 0 -0.029
+							children [
+								Inline {
+									url "flange-screw.wrl"
+								}
+							]
+						}
+					]
+				}
+				Transform {
+					children [
+						Inline {
+							url "big-bracket-base-plug.wrl"
+						}
+					]
+				}
+				Transform {
+					translation -0.092 0.075 0
+					rotation 0 0 1 1.570796
+					children [
+						Inline {
+							url "big-bracket-side-plug.wrl"
+						}
+					]
+				}
+			]
+		}
+		Transform {
+			translation 0 0 0.0591
+			rotation 1 0 0 1.570796
+			children [
+				Transform {
+					translation 0 0 0.0375
+					children [
+						Inline {
+							url "flange-screw.wrl"
+						}
+					]
+				}
+				Transform {
+					translation 0 0 -0.0375
+					children [
+						Inline {
+							url "flange-screw.wrl"
+						}
+					]
+				}
+				Transform {
+					translation 0.0375 0 0
+					children [
+						Inline {
+							url "flange-screw.wrl"
+						}
+					]
+				}
+				Transform {
+					translation -0.0375 0 0
+					children [
+						Inline {
+							url "flange-screw.wrl"
+						}
+					]
+				}
+			]
+		}
+		Transform {
+			translation 0 0 0.057
+			rotation 1 0 0 -1.570796
+			children [
+				Transform {
+					translation 0 -0.0035 0
+					rotation 0 1 0 1.570796
+					children [
+						Inline {
+							url "big-flange-1.wrl"
+						}
+					]
+				}
+				Transform {
+					rotation 0.96592583 0 0.25881905 3.1415927
+					children [
+						Transform {
+							translation 0 -0.114 0
+							children [
+								Inline {
+									url "big-tree.wrl"
+								}
+							]
+						}
+						Transform {
+							translation 0 -0.0032 0
+							children [
+								Transform {
+									translation 0 0 -0.01125
+									children [
+										Inline {
+											url "flange-screw.wrl"
+										}
+									]
+								}
+								Transform {
+									translation -0.0097427858 0 0.005625
+									children [
+										Inline {
+											url "flange-screw.wrl"
+										}
+									]
+								}
+								Transform {
+									translation 0.0097427858 0 0.005625
+									children [
+										Inline {
+											url "flange-screw.wrl"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+				Transform {
+					translation 0 0.0155 0
+					rotation 0 0 1 1.570796
+					children [
+						Inline {
+							url "big-gear.wrl"
+						}
+					]
+				}
+			]
+		}
+		Transform {
+			children [
+				Transform {
+					translation 0 -0.0811 0.0375
+					children [
+						Inline {
+							url "flange-screw.wrl"
+						}
+					]
+				}
+				Transform {
+					translation 0 -0.08243 -0.0375
+					children [
+						Inline {
+							url "flange-screw.wrl"
+						}
+					]
+				}
+				Transform {
+					translation 0.0375 -0.0818 0
+					children [
+						Inline {
+							url "flange-screw.wrl"
+						}
+					]
+				}
+				Transform {
+					translation -0.0375 -0.0818 0
+					children [
+						Inline {
+							url "flange-screw.wrl"
+						}
+					]
+				}
+			]
+		}
+		Transform {
+			translation 0 -0.093 0
+			rotation 0 1 0 0.78539816
+			children [
+				Inline {
+					url "big-bracket-to-small-motion-unit-adapter.wrl"
+				}
+			]
+		}
+		Transform {
+			translation 0 -0.093 0
+			children [
+				Inline {
+					url "small-mould.wrl"
+				}
+			]
+		}
+	]
+}

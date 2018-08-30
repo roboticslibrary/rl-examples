@@ -1,0 +1,79 @@
+#VRML V2.0 utf8
+
+DEF link0 Transform {
+	rotation 1 0 0 1.570796
+	children [
+		Transform {
+			translation 0.28851123 -0.04631781 -0.53492478
+			children [
+				Inline {
+					url "hexagonal-base.wrl"
+				}
+			]
+		}
+		Transform {
+			children [
+				Transform {
+					translation 0 -0.0035 0
+					rotation 0 1 0 1.570796
+					children [
+						Inline {
+							url "big-flange-1.wrl"
+						}
+					]
+				}
+				Transform {
+					rotation 0.96592583 0 0.25881905 3.1415927
+					children [
+						Transform {
+							translation 0 -0.114 0
+							children [
+								Inline {
+									url "big-tree.wrl"
+								}
+							]
+						}
+						Transform {
+							translation 0 -0.0032 0
+							children [
+								Transform {
+									translation 0 0 -0.01125
+									children [
+										Inline {
+											url "flange-screw.wrl"
+										}
+									]
+								}
+								Transform {
+									translation -0.0097427858 0 0.005625
+									children [
+										Inline {
+											url "flange-screw.wrl"
+										}
+									]
+								}
+								Transform {
+									translation 0.0097427858 0 0.005625
+									children [
+										Inline {
+											url "flange-screw.wrl"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+				Transform {
+					translation 0 0.0155 0
+					rotation 0 0 1 1.570796
+					children [
+						Inline {
+							url "big-gear.wrl"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,61 @@
+#VRML V2.0 utf8
+
+Transform {
+	children [
+		DEF link0 Transform {
+			children [
+				Inline {
+					url "link0-6-axes.wrl"
+				}
+			]
+		}
+		DEF link1 Transform {
+			translation 0 0 0.202
+			children [
+				Inline {
+					url "link1-6-axes.wrl"
+				}
+			]
+		}
+		DEF link2 Transform {
+			translation 0 0 0.4125
+			children [
+				Inline {
+					url "link2-6-axes.wrl"
+				}
+			]
+		}
+		DEF link3 Transform {
+			translation 0 0 0.4125
+			children [
+				Inline {
+					url "link3-6-axes.wrl"
+				}
+			]
+		}
+		DEF link4 Transform {
+			translation 0 0 0.6805
+			children [
+				Inline {
+					url "link4-6-axes.wrl"
+				}
+			]
+		}
+		DEF link5 Transform {
+			translation 0 0 0.6805
+			children [
+				Inline {
+					url "link5-6-axes.wrl"
+				}
+			]
+		}
+		DEF link6 Transform {
+			translation 0 0 0.855
+			children [
+				Inline {
+					url "link6-6-axes.wrl"
+				}
+			]
+		}
+	]
+}

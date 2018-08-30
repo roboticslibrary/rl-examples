@@ -1,0 +1,157 @@
+#VRML V2.0 utf8
+
+DEF link4 Transform {
+	rotation 1 0 0 1.570796
+	children [
+		Transform {
+			translation 0 -0.0715 0
+			rotation 0 1 0 1.570796
+			children [
+				Transform {
+					children [
+						Inline {
+							url "small-bracket.wrl"
+						}
+					]
+				}
+				Transform {
+					translation -0.023 0.03 0
+					rotation 0 0 1 -1.570796
+					children [
+						Transform {
+							translation 0 0 0.019
+							children [
+								Inline {
+									url "flange-screw.wrl"
+								}
+							]
+						}
+						Transform {
+							translation 0 0 -0.019
+							children [
+								Inline {
+									url "flange-screw.wrl"
+								}
+							]
+						}
+					]
+				}
+				Transform {
+					children [
+						Inline {
+							url "small-bracket-base-plug.wrl"
+						}
+					]
+				}
+				Transform {
+					translation -0.08 0.0715 0
+					rotation 0 0 1 1.570796
+					children [
+						Inline {
+							url "small-bracket-side-plug.wrl"
+						}
+					]
+				}
+			]
+		}
+		Transform {
+			translation 0 -0.0845 0
+			children [
+				Transform {
+					rotation 0.25881905 0 -0.96592583 3.1415927
+					children [
+						Inline {
+							url "small-flange.wrl"
+						}
+					]
+				}
+				Transform {
+					translation 0 -0.0032 0
+					rotation 0 1 0 0.78539816
+					children [
+						Transform {
+							translation 0 0 -0.011
+							children [
+								Inline {
+									url "flange-screw.wrl"
+								}
+							]
+						}
+						Transform {
+							translation -0.0095262794 0 0.0055
+							children [
+								Inline {
+									url "flange-screw.wrl"
+								}
+							]
+						}
+						Transform {
+							translation 0.0095262794 0 0.005625
+							children [
+								Inline {
+									url "flange-screw.wrl"
+								}
+							]
+						}
+					]
+				}
+				Transform {
+					translation 0 -0.09 0
+					rotation 0 1 0 0.78539816
+					children [
+						Inline {
+							url "small-tree.wrl"
+						}
+					]
+				}
+			]
+		}
+		Transform {
+			translation 0 0 0.0471
+			rotation 1 0 0 1.570796
+			children [
+				Transform {
+					translation 0 0 0.03
+					children [
+						Inline {
+							url "flange-screw.wrl"
+						}
+					]
+				}
+				Transform {
+					translation 0 0 -0.03
+					children [
+						Inline {
+							url "flange-screw.wrl"
+						}
+					]
+				}
+				Transform {
+					translation 0.03 0 0
+					children [
+						Inline {
+							url "flange-screw.wrl"
+						}
+					]
+				}
+				Transform {
+					translation -0.03 0 0
+					children [
+						Inline {
+							url "flange-screw.wrl"
+						}
+					]
+				}
+			]
+		}
+		Transform {
+			translation 0 0 0.045
+			rotation 1 0 0 1.570796
+			children [
+				Inline {
+					url "small-mould.wrl"
+				}
+			]
+		}
+	]
+}

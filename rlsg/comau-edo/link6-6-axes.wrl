@@ -1,0 +1,25 @@
+#VRML V2.0 utf8
+
+DEF link6 Transform {
+	rotation 1 0 0 -1.570796
+	children [
+		Transform {
+			translation 0 0 0
+			rotation 0 -1 0 2.6179939
+			children [
+				Inline {
+					url "small-flange.wrl"
+				}
+			]
+		}
+		Transform {
+			translation 0 0.09 0
+			rotation 0.92387953 0 0.38268343 3.1415927
+			children [
+				Inline {
+					url "small-tree.wrl"
+				}
+			]
+		}
+	]
+}
