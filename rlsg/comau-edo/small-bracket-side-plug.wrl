@@ -8688,7 +8688,7 @@ DEF cover_small_bracket01 Transform {
     Shape {
       appearance Appearance {
         material Material {
-          diffuseColor 1.000000 1.000000 1.000000
+          diffuseColor 0.250980 0.250980 0.250980
           emissiveColor 0.000000 0.000000 0.000000
           specularColor 0.752941 0.752941 0.752941
           ambientIntensity 0.117647
