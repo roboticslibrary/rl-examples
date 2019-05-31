@@ -39,12 +39,12 @@
 		<alternativeDistanceComputation/>
 		<distanceWeight>0.01</distanceWeight>
 		<explorer>
-			<space/>
 			<goal>
 				<goal>
 					<tcp/>
 				</goal>
 			</goal>
+			<space/>
 			<radius>0.025</radius>
 			<range>32</range>
 			<samples>100</samples>

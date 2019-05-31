@@ -81,12 +81,12 @@
 		<kdtreeNearestNeighbors/>
 		<uniformSampler/>
 		<explorer>
-			<distance/>
 			<goal>
 				<start>
 					<frame>1</frame>
 				</start>
 			</goal>
+			<distance/>
 			<radius>0.05</radius>
 			<range>0.92</range>
 			<samples>750</samples>
@@ -97,12 +97,12 @@
 			</start>
 		</explorer>
 		<explorer>
-			<distance/>
 			<goal>
 				<goal>
 					<tcp/>
 				</goal>
 			</goal>
+			<distance/>
 			<radius>0.05</radius>
 			<range>0.92</range>
 			<samples>750</samples>

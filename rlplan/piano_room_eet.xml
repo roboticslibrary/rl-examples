@@ -37,12 +37,12 @@
 		<gnatNearestNeighbors/>
 		<uniformSampler/>
 		<explorer>
-			<space/>
 			<goal>
 				<goal>
 					<tcp/>
 				</goal>
 			</goal>
+			<space/>
 			<radius>0.25</radius>
 			<range>15</range>
 			<samples>100</samples>

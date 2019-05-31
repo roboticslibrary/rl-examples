@@ -38,12 +38,12 @@
 		<uniformSampler/>
 		<alternativeDistanceComputation/>
 		<explorer>
-			<space/>
 			<goal>
 				<goal>
 					<tcp/>
 				</goal>
 			</goal>
+			<space/>
 			<radius>5</radius>
 			<range>753.18</range>
 			<samples>10</samples>

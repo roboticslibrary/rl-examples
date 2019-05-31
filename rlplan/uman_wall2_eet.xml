@@ -63,12 +63,12 @@
 		<gnatNearestNeighbors/>
 		<uniformSampler/>
 		<explorer>
-			<distance/>
 			<goal>
 				<start>
 					<frame>4</frame>
 				</start>
 			</goal>
+			<distance/>
 			<radius>0.025</radius>
 			<range>0.92</range>
 			<samples>500</samples>
@@ -79,12 +79,12 @@
 			</start>
 		</explorer>
 		<explorer>
-			<space/>
 			<goal>
 				<goal>
 					<frame>4</frame>
 				</goal>
 			</goal>
+			<space/>
 			<radius>0.05</radius>
 			<range>2.25</range>
 			<samples>500</samples>
@@ -95,12 +95,12 @@
 			</start>
 		</explorer>
 		<explorer>
-			<distance/>
 			<goal>
 				<goal>
 					<tcp/>
 				</goal>
 			</goal>
+			<distance/>
 			<radius>0.025</radius>
 			<range>0.92</range>
 			<samples>500</samples>
