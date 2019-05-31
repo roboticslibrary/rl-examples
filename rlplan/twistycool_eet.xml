@@ -38,6 +38,18 @@
 		<uniformSampler/>
 		<alternativeDistanceComputation/>
 		<explorer>
+			<boundingBox>
+				<max>
+					<x>402.96</x>
+					<y>476.86</y>
+					<z>269.25</z>
+				</max>
+				<min>
+					<x>53.46</x>
+					<y>91</y>
+					<z>-21.25</z>
+				</min>
+			</boundingBox>
 			<goal>
 				<goal>
 					<tcp/>

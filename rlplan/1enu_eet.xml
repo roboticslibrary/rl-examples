@@ -54,6 +54,18 @@
 		<gnatNearestNeighbors/>
 		<uniformSampler/>
 		<explorer>
+			<boundingBox>
+				<max>
+					<x>50</x>
+					<y>50</y>
+					<z>50</z>
+				</max>
+				<min>
+					<x>-50</x>
+					<y>-50</y>
+					<z>-50</z>
+				</min>
+			</boundingBox>
 			<goal>
 				<goal>
 					<tcp/>

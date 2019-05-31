@@ -82,6 +82,18 @@
 		<kdtreeNearestNeighbors/>
 		<uniformSampler/>
 		<explorer>
+			<boundingBox>
+				<max>
+					<x>1.5</x>
+					<y>1.5</y>
+					<z>1.5</z>
+				</max>
+				<min>
+					<x>-1.5</x>
+					<y>-1.5</y>
+					<z>0</z>
+				</min>
+			</boundingBox>
 			<goal>
 				<start>
 					<frame>1</frame>
@@ -98,6 +110,18 @@
 			</start>
 		</explorer>
 		<explorer>
+			<boundingBox>
+				<max>
+					<x>1.5</x>
+					<y>1.5</y>
+					<z>1.5</z>
+				</max>
+				<min>
+					<x>-1.5</x>
+					<y>-1.5</y>
+					<z>0</z>
+				</min>
+			</boundingBox>
 			<goal>
 				<goal>
 					<tcp/>
