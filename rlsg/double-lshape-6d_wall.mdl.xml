@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rlsg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="rlsg.xsd">
+	<scene href="double-lshape-6d_wall.wrl">
+		<model name="double-lshape-6d">
+			<body name="body1"/>
+		</model>
+		<model name="wall">
+			<body name="left"/>
+			<body name="top"/>
+			<body name="bottom"/>
+			<body name="right"/>
+		</model>
+	</scene>
+</rlsg>
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rlsg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="rlsg.xsd">
+	<scene href="double-lshape-6d_two-walls.wrl">
+		<model name="double-lshape-6d">
+			<body name="link0"/>
+			<body name="link1"/>
+			<body name="link2"/>
+			<body name="link3"/>
+			<body name="link4"/>
+			<body name="link5"/>
+			<body name="body1"/>
+		</model>
+		<model name="wall1">
+			<body name="left"/>
+			<body name="top"/>
+			<body name="bottom"/>
+			<body name="right"/>
+		</model>
+		<model name="wall2">
+			<body name="left"/>
+			<body name="top"/>
+			<body name="bottom"/>
+			<body name="right"/>
+		</model>
+	</scene>
+</rlsg>
+

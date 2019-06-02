@@ -1,0 +1,204 @@
+#VRML V2.0 utf8
+Transform {
+	children [
+		DEF double-lshape-6d Transform {
+			translation 0 10 0
+			children [
+				DEF link0 Transform {
+					children [
+					]
+				}
+				DEF link1 Transform {
+					children [
+					]
+				}
+				DEF link2 Transform {
+					children [
+					]
+				}
+				DEF link3 Transform {
+					children [
+					]
+				}
+				DEF link4 Transform {
+					children [
+					]
+				}
+				DEF link5 Transform {
+					children [
+					]
+				}
+				DEF body1 Transform {
+					children [
+						Transform {
+							translation 0.625 0 -0.625
+							children [
+								Shape {
+									appearance Appearance {
+										material Material {
+											diffuseColor 1.0 1.0 0.0
+										}
+									}
+									geometry Box {
+										size 1.5 0.25 0.25
+									}
+								}
+							]
+						}
+						Transform {
+							rotation 0 1 0 1.570796
+							children [
+								Shape {
+									appearance Appearance {
+										material Material {
+											diffuseColor 1.0 1.0 0.0
+										}
+									}
+									geometry Box {
+										size 1.5 0.25 0.25
+									}
+								}
+							]
+						}
+						Transform {
+							translation 0 0.625 0.625
+							rotation 0 0 1 1.570796
+							children [
+								Shape {
+									appearance Appearance {
+										material Material {
+											diffuseColor 1.0 1.0 0.0
+										}
+									}
+									geometry Box {
+										size 1.5 0.25 0.25
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+		DEF wall1 Transform {
+			children [
+				DEF left Transform {
+					translation 3.75 5 0
+					children [
+						Shape {
+							appearance Appearance {
+								material Material {
+								}
+							}
+							geometry Box {
+								size 2.5 0.25 10
+							}
+						}
+					]
+				}
+				DEF top Transform {
+					translation 2 5 3.75
+					children [
+						Shape {
+							appearance Appearance {
+								material Material {
+								}
+							}
+							geometry Box {
+								size 1 0.25 2.5
+							}
+						}
+					]
+				}
+				DEF bottom Transform {
+					translation 2 5 -1.75
+					children [
+						Shape {
+							appearance Appearance {
+								material Material {
+								}
+							}
+							geometry Box {
+								size 1 0.25 6.5
+							}
+						}
+					]
+				}
+				DEF right Transform {
+					translation -1.75 5 0
+					children [
+						Shape {
+							appearance Appearance {
+								material Material {
+								}
+							}
+							geometry Box {
+								size 6.5 0.25 10
+							}
+						}
+					]
+				}
+			]
+		}		DEF wall2 Transform {
+			children [
+				DEF left Transform {
+					translation 1.75 -5 0
+					children [
+						Shape {
+							appearance Appearance {
+								material Material {
+								}
+							}
+							geometry Box {
+								size 6.5 0.25 10
+							}
+						}
+					]
+				}
+				DEF top Transform {
+					translation -2 -5 1.75
+					children [
+						Shape {
+							appearance Appearance {
+								material Material {
+								}
+							}
+							geometry Box {
+								size 1 0.25 6.5
+							}
+						}
+					]
+				}
+				DEF bottom Transform {
+					translation -2 -5 -3.75
+					children [
+						Shape {
+							appearance Appearance {
+								material Material {
+								}
+							}
+							geometry Box {
+								size 1 0.25 2.5
+							}
+						}
+					]
+				}
+				DEF right Transform {
+					translation -3.75 -5 0
+					children [
+						Shape {
+							appearance Appearance {
+								material Material {
+								}
+							}
+							geometry Box {
+								size 2.5 0.25 10
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
+

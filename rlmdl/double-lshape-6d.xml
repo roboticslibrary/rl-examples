@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rlmdl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="rlmdl.xsd">
+	<model>
+		<manufacturer></manufacturer>
+		<name>6D Double L-Shape</name>
+		<world id="world">
+			<rotation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</rotation>
+			<translation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</translation>
+			<g>
+				<x>0</x>
+				<y>0</y>
+				<z>9.86055</z>
+			</g>
+		</world>
+		<prismatic id="joint0">
+			<frame>
+				<a idref="world"/>
+				<b idref="frame1"/>
+			</frame>
+			<axis>
+				<x>1</x>
+				<y>0</y>
+				<z>0</z>
+			</axis>
+			<max>5</max>
+			<min>-5</min>
+		</prismatic>
+		<frame id="frame1"/>
+		<prismatic id="joint1">
+			<frame>
+				<a idref="frame1"/>
+				<b idref="frame2"/>
+			</frame>
+			<axis>
+				<x>0</x>
+				<y>1</y>
+				<z>0</z>
+			</axis>
+			<max>10</max>
+			<min>-10</min>
+		</prismatic>
+		<frame id="frame2"/>
+		<prismatic id="joint2">
+			<frame>
+				<a idref="frame2"/>
+				<b idref="frame3"/>
+			</frame>
+			<axis>
+				<x>0</x>
+				<y>0</y>
+				<z>1</z>
+			</axis>
+			<max>5</max>
+			<min>-5</min>
+		</prismatic>
+		<frame id="frame3"/>
+		<revolute id="joint3">
+			<frame>
+				<a idref="frame3"/>
+				<b idref="frame4"/>
+			</frame>
+			<axis>
+				<x>1</x>
+				<y>0</y>
+				<z>0</z>
+			</axis>
+			<max>180</max>
+			<min>-180</min>
+			<wraparound/>
+		</revolute>
+		<frame id="frame4"/>
+		<revolute id="joint4">
+			<frame>
+				<a idref="frame4"/>
+				<b idref="frame5"/>
+			</frame>
+			<axis>
+				<x>0</x>
+				<y>1</y>
+				<z>0</z>
+			</axis>
+			<max>90</max>
+			<min>-90</min>
+		</revolute>
+		<frame id="frame5"/>
+		<revolute id="joint5">
+			<frame>
+				<a idref="frame5"/>
+				<b idref="body1"/>
+			</frame>
+			<axis>
+				<x>0</x>
+				<y>0</y>
+				<z>1</z>
+			</axis>
+			<max>180</max>
+			<min>-180</min>
+			<wraparound/>
+		</revolute>
+		<body id="body1"/>
+		<fixed id="tool">
+			<frame>
+				<a idref="body1"/>
+				<b idref="tcp"/>
+			</frame>
+			<rotation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</rotation>
+			<translation>
+				<x>1.375</x>
+				<y>0</y>
+				<z>-0.625</z>
+			</translation>
+		</fixed>
+		<frame id="tcp"/>
+	</model>
+</rlmdl>
