@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rlplan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="rlplan.xsd">
+	<eet>
+		<duration>1200</duration>
+		<goal>
+			<q>9</q>
+			<q>11</q>
+			<q>1</q>
+			<q>0</q>
+			<q>0</q>
+			<q>-0.70710678</q>
+			<q>0.70710678</q>
+		</goal>
+		<model>
+			<kinematics href="../rlmdl/box-6d-300505.spherical.xml" type="mdl"/>
+			<model>0</model>
+			<scene href="../rlsg/box-6d-300505_maze.mdl.xml"/>
+		</model>
+		<start>
+			<q>2</q>
+			<q>1</q>
+			<q>1</q>
+			<q>0</q>
+			<q>0</q>
+			<q>0</q>
+			<q>1</q>
+		</start>
+		<viewer>
+			<delta unit="deg">1</delta>
+			<model>
+				<kinematics href="../rlmdl/box-6d-300505.spherical.xml" type="mdl"/>
+				<model>0</model>
+				<scene href="../rlsg/box-6d-300505_maze.mdl.xml"/>
+			</model>
+			<swept unit="deg">100</swept>
+		</viewer>
+		<delta unit="deg">1</delta>
+		<epsilon>1e-9</epsilon>
+		<gnatNearestNeighbors/>
+		<uniformSampler/>
+		<alternativeDistanceComputation/>
+		<explorer>
+			<goal>
+				<goal>
+					<tcp/>
+				</goal>
+			</goal>
+			<space/>
+			<radius>0.025</radius>
+			<range>45</range>
+			<samples>100</samples>
+			<start>
+				<start>
+					<tcp/>
+				</start>
+			</start>
+		</explorer>
+		<max>
+			<x>30</x>
+			<y>30</y>
+			<z>2</z>
+		</max>
+		<min>
+			<x>0</x>
+			<y>0</y>
+			<z>0</z>
+		</min>
+	</eet>
+</rlplan>
