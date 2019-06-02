@@ -81,6 +81,6 @@
 		<epsilon>1e-9</epsilon>
 		<kdtreeNearestNeighbors/>
 		<uniformSampler/>
-		<probability>0.25</probability>
+		<probability>0.05</probability>
 	</rrtCon>
 </rlplan>

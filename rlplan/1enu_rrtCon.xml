@@ -53,6 +53,6 @@
 		<epsilon>1e-9</epsilon>
 		<gnatNearestNeighbors/>
 		<uniformSampler/>
-		<probability>0.25</probability>
+		<probability>0.05</probability>
 	</rrtCon>
 </rlplan>
