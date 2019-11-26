@@ -1,0 +1,59 @@
+#VRML V2.0 utf8
+Transform {
+	children [
+		DEF link0 Transform {
+			children [
+				Inline {
+					url "IRB4600_60kg-205_BASE_CAD_rev04.wrl"
+				}
+			]
+		}
+		DEF link1 Transform {
+			translation 0.175 0 0.495
+			children [
+				Inline {
+					url "IRB4600_60kg-205_LINK1_CAD_rev04.wrl"
+				}
+			]
+		}
+		DEF link2 Transform {
+			translation 0.175 0 1.395
+			children [
+				Inline {
+					url "IRB4600_60kg-205_LINK2_CAD_rev04.wrl"
+				}
+			]
+		}
+		DEF link3 Transform {
+			translation 0.175 0 1.570
+			children [
+				Inline {
+					url "IRB4600_60kg-205_LINK3_CAD_rev04.wrl"
+				}
+			]
+		}
+		DEF link4 Transform {
+			translation 1.135 0 1.570
+			children [
+				Inline {
+					url "IRB4600_60kg-205_LINK4_CAD_rev04.wrl"
+				}
+			]
+		}
+		DEF link5 Transform {
+			translation 1.135 0 1.570
+			children [
+				Inline {
+					url "IRB4600_60kg-205_LINK5_CAD_rev04.wrl"
+				}
+			]
+		}
+		DEF link6 Transform {
+			translation 1.270 0 1.570
+			children [
+				Inline {
+					url "IRB4600_60kg-205_LINK6_CAD_rev04.wrl"
+				}
+			]
+		}	]
+}
