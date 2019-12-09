@@ -1,7 +1,8 @@
 #VRML V2.0 utf8
 
 DEF irb6640_KG_255__02_Link2 Transform {
-  translation -0.32 0 -1.855
+  translation -1.855 -0.32 0
+  rotation 0.577350 0.577350 0.577350 2.094395
   scale 0.001 0.001 0.001
   children [
     Shape {

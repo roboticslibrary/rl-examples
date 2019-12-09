@@ -1,7 +1,8 @@
 #VRML V2.0 utf8
 
 DEF link6 Transform {
-  translation -1.59 0 -1.784
+  translation 1.784 0 -1.59
+  rotation 0 1 0 -1.570796
   scale 0.001 0.001 0.001
   children [
     DEF _6 Transform {

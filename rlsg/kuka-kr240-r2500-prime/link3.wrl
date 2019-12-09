@@ -1,7 +1,8 @@
 #VRML V2.0 utf8
 
 DEF link3 Transform {
-  translation -0.35 0 -1.784
+  translation -1.784 0 -0.35
+  rotation 0.70710677 0 0.70710677 3.1415927
   scale 0.001 0.001 0.001
   children [
     DEF _8 Transform {
