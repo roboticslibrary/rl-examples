@@ -6,7 +6,7 @@ Transform {
 			translation 1.85642 0.14128 2.09387
 			children [
 				Inline {
-					url "../comau-smart5-six-10-157/comau-smart5-six-10-157.wrl"
+					url "../comau-smart5-six-10-157.convex/comau-smart5-six-10-157.wrl"
 				}
 			]
 		}
@@ -15,14 +15,14 @@ Transform {
 			translation 1.85642 -0.14128 2.09387
 			children [
 				Inline {
-					url "../comau-smart5-six-10-157/comau-smart5-six-10-157.wrl"
+					url "../comau-smart5-six-10-157.convex/comau-smart5-six-10-157.wrl"
 				}
 			]
 		}
 		DEF rml Transform {
 			children [
 				Inline {
-					url "../comau-rml/comau-rml.wrl"
+					url "../comau-rml.convex/comau-rml.wrl"
 				}
 			]
 		}

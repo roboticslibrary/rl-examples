@@ -1,0 +1,146 @@
+#VRML V2.0 utf8
+Transform {
+	children [
+		DEF rml_link0 Transform {
+			children [
+				Inline {
+					url "../comau-rml/link0.wrl"
+				}
+			]
+		}
+		DEF rml_link1 Transform {
+			translation 1.375 0 0
+			children [
+				Inline {
+					url "../comau-rml/link1.wrl"
+				}
+			]
+		}
+		DEF left_link0 Transform {
+			translation 1.85642 0.14128 2.09387
+			rotation -0.532254 0.760138 0.372688 2.16336
+			children [
+				Inline {
+					url "../comau-smart5-six-10-157/link0.wrl"
+				}
+			]
+		}
+		DEF left_link1 Transform {
+			translation 1.939791 0.3703399 1.8455218
+			rotation -0.5322541 0.76013756 0.37268829 2.1633592
+			children [
+				Inline {
+					url "../comau-smart5-six-10-157/link1.wrl"
+				}
+			]
+		}
+		DEF left_link2 Transform {
+			translation 2.1294134 0.89132303 1.6437299
+			rotation -0.5322541 0.76013756 0.37268829 2.1633592
+			children [
+				Inline {
+					url "../comau-smart5-six-10-157/link2.wrl"
+				}
+			]
+		}
+		DEF left_link3 Transform {
+			translation 2.1711946 1.0061159 1.5992672
+			rotation -0.5322541 0.76013756 0.37268829 2.1633592
+			children [
+				Inline {
+					url "../comau-smart5-six-10-157/link3.wrl"
+				}
+			]
+		}
+		DEF left_link4 Transform {
+			translation 2.0753009 0.74265009 0.82894486
+			rotation -0.5322541 0.76013756 0.37268829 2.1633592
+			children [
+				Inline {
+					url "../comau-smart5-six-10-157/link4.wrl"
+				}
+			]
+		}
+		DEF left_link5 Transform {
+			translation 2.0753009 0.74265009 0.82894486
+			rotation -0.5322541 0.76013756 0.37268829 2.1633592
+			children [
+				Inline {
+					url "../comau-smart5-six-10-157/link5.wrl"
+				}
+			]
+		}
+		DEF left_link6 Transform {
+			translation 2.0518689 0.67827171 0.640715
+			rotation -0.5322541 0.76013756 0.37268829 2.1633592
+			children [
+				Inline {
+					url "../comau-smart5-six-10-157/link6.wrl"
+				}
+			]
+		}
+		DEF right_link0 Transform {
+			translation 1.85642 -0.14128 2.09387
+			rotation 0.532254  0.760138 -0.372688 2.16336
+			children [
+				Inline {
+					url "../comau-smart5-six-10-157/link0.wrl"
+				}
+			]
+		}
+		DEF right_link1 Transform {
+			translation 1.939791 -0.3703399 1.8455218
+			rotation 0.5322541 0.76013756 -0.37268829 2.1633592
+			children [
+				Inline {
+					url "../comau-smart5-six-10-157/link1.wrl"
+				}
+			]
+		}
+		DEF right_link2 Transform {
+			translation 2.1294134 -0.89132303 1.6437299
+			rotation 0.5322541 0.76013756 -0.37268829 2.1633592
+			children [
+				Inline {
+					url "../comau-smart5-six-10-157/link2.wrl"
+				}
+			]
+		}
+		DEF right_link3 Transform {
+			translation 2.1711946 -1.0061159 1.5992672
+			rotation 0.5322541 0.76013756 -0.37268829 2.1633592
+			children [
+				Inline {
+					url "../comau-smart5-six-10-157/link3.wrl"
+				}
+			]
+		}
+		DEF right_link4 Transform {
+			translation 2.0753009 -0.74265009 0.82894486
+			rotation 0.5322541 0.76013756 -0.37268829 2.1633592
+			children [
+				Inline {
+					url "../comau-smart5-six-10-157/link4.wrl"
+				}
+			]
+		}
+		DEF right_link5 Transform {
+			translation 2.0753009 -0.74265009 0.82894486
+			rotation 0.5322541 0.76013756 -0.37268829 2.1633592
+			children [
+				Inline {
+					url "../comau-smart5-six-10-157/link5.wrl"
+				}
+			]
+		}
+		DEF right_link6 Transform {
+			translation 2.0518689 -0.67827171 0.640715
+			rotation 0.5322541 0.76013756 -0.37268829 2.1633592
+			children [
+				Inline {
+					url "../comau-smart5-six-10-157/link6.wrl"
+				}
+			]
+		}
+	]
+}
