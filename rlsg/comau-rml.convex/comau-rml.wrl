@@ -1,0 +1,20 @@
+#VRML V2.0 utf8
+Transform {
+	children [
+		DEF link0 Transform {
+			children [
+				Inline {
+					url "link0.wrl"
+				}
+			]
+		}
+		DEF link1 Transform {
+			translation 1.375 0 0
+			children [
+				Inline {
+					url "link1.wrl"
+				}
+			]
+		}
+	]
+}
