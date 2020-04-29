@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rlplan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="rlplan.xsd">
+	<prm>
+		<duration>1200</duration>
+		<goal>
+			<q unit="deg">0</q>
+			<q unit="deg">-20</q>
+			<q unit="deg">110</q>
+			<q unit="deg">90</q>
+			<q unit="deg">0</q>
+			<q unit="deg">90</q>
+			<q unit="deg">0</q>
+			<q unit="deg">-20</q>
+			<q unit="deg">90</q>
+			<q unit="deg">80</q>
+			<q unit="deg">0</q>
+			<q unit="deg">90</q>
+			<q unit="deg">0</q>
+		</goal>
+		<model>
+			<kinematics href="../rlmdl/comau-rml-dual-arm.xml" type="mdl"/>
+			<model>0</model>
+			<scene href="../rlsg/comau-rml-dual-arm.convex/comau-rml-dual-arm-combined.xml"/>
+		</model>
+		<start>
+			<q unit="deg">0</q>
+			<q unit="deg">20</q>
+			<q unit="deg">90</q>
+			<q unit="deg">90</q>
+			<q unit="deg">0</q>
+			<q unit="deg">90</q>
+			<q unit="deg">0</q>
+			<q unit="deg">20</q>
+			<q unit="deg">90</q>
+			<q unit="deg">90</q>
+			<q unit="deg">0</q>
+			<q unit="deg">90</q>
+			<q unit="deg">0</q>
+		</start>
+		<viewer>
+			<delta unit="deg">1</delta>
+			<model>
+				<kinematics href="../rlmdl/comau-rml-dual-arm.xml" type="mdl"/>
+				<model>0</model>
+				<scene href="../rlsg/comau-rml-dual-arm/comau-rml-dual-arm-combined.xml"/>
+			</model>
+			<swept unit="deg">100</swept>
+		</viewer>
+		<kdtreeNearestNeighbors/>
+		<uniformSampler/>
+		<recursiveVerifier>
+			<delta unit="deg">1</delta>
+		</recursiveVerifier>
+	</prm>
+	<advancedOptimizer>
+		<recursiveVerifier>
+			<delta unit="deg">1</delta>
+		</recursiveVerifier>
+		<length unit="deg">15</length>
+		<ratio>0.05</ratio>
+	</advancedOptimizer>
+</rlplan>
