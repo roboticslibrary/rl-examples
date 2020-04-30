@@ -5,10 +5,12 @@ Transform {
 			children [
 				Inline {
 					url "mitsubishi-rv6s/mitsubishi-rv6s.wrl"
-				}			]
+				}
+			]
 		}
 		DEF boxes Inline {
 			url "boxes.wrl"
-		}	]
+		}
+	]
 }
 

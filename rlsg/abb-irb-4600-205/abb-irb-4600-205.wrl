@@ -55,5 +55,6 @@ Transform {
 					url "IRB4600_60kg-205_LINK6_CAD_rev04.wrl"
 				}
 			]
-		}	]
+		}
+	]
 }

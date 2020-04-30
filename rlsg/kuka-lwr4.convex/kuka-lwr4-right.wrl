@@ -58,12 +58,14 @@ Transform {
 					url "link6-right.wrl"
 				}
 			]
-		}		DEF link7 Transform {
+		}
+		DEF link7 Transform {
 			translation 0 0 1.1
 			children [
 				Inline {
 					url "link7-right.wrl"
 				}
 			]
-		}	]
+		}
+	]
 }

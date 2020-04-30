@@ -66,6 +66,7 @@ Transform {
 		}
 		DEF maze2 Inline {
 			url "maze2.wrl"
-		}	]
+		}
+	]
 }
 

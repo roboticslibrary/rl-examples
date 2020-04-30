@@ -33,7 +33,8 @@ Transform {
 							url "alpha/robot.wrl"
 						}
 					]
-				}			]
+				}
+			]
 		}
 		DEF obstacle Transform {
 			children [

@@ -5,10 +5,12 @@ Transform {
 			children [
 				Inline {
 					url "comau-smart5-nj4-220-27/comau-smart5-nj4-220-27.wrl"
-				}			]
+				}
+			]
 		}
 		DEF boxes Inline {
 			url "boxes.wrl"
-		}	]
+		}
+	]
 }
 

@@ -30,6 +30,7 @@ Transform {
 		}
 		DEF boxes Inline {
 			url "boxes.wrl"
-		}	]
+		}
+	]
 }
 

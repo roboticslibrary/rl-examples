@@ -5,10 +5,12 @@ Transform {
 			children [
 				Inline {
 					url "comau-smartsix614.convex/comau-smartsix614.wrl"
-				}			]
+				}
+			]
 		}
 		DEF boxes Inline {
 			url "boxes.wrl"
-		}	]
+		}
+	]
 }
 

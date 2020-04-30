@@ -6,10 +6,12 @@ Transform {
 			children [
 				Inline {
 					url "kuka-lwr4.convex/kuka-lwr4-right.wrl"
-				}			]
+				}
+			]
 		}
 		DEF wall Inline {
 			url "wall.wrl"
-		}	]
+		}
+	]
 }
 

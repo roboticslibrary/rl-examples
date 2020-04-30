@@ -35,7 +35,8 @@ Transform {
 							url "piano/piano.convex.wrl"
 						}
 					]
-				}			]
+				}
+			]
 		}
 		DEF room Transform {
 			children [

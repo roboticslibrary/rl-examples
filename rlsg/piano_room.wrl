@@ -35,7 +35,8 @@ Transform {
 							url "piano/piano.wrl"
 						}
 					]
-				}			]
+				}
+			]
 		}
 		DEF room Transform {
 			children [

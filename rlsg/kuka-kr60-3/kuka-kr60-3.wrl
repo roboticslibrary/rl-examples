@@ -62,5 +62,6 @@ Transform {
 					url "link6.wrl"
 				}
 			]
-		}	]
+		}
+	]
 }

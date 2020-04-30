@@ -6,10 +6,12 @@ Transform {
 			children [
 				Inline {
 					url "uman/uman.wrl"
-				}			]
+				}
+			]
 		}
 		DEF wall2 Inline {
 			url "wall2.wrl"
-		}	]
+		}
+	]
 }
 

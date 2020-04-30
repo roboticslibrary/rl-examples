@@ -7,7 +7,8 @@ Transform {
 			children [
 				Inline {
 					url "planar2.wrl"
-				}			]
+				}
+			]
 		}
 		DEF floor Group {
 			children [
@@ -27,6 +28,7 @@ Transform {
 					]
 				}
 			]
-		}	]
+		}
+	]
 }
 

@@ -139,7 +139,8 @@ Transform {
 					]
 				}
 			]
-		}		DEF wall2 Transform {
+		}
+		DEF wall2 Transform {
 			children [
 				DEF left Transform {
 					translation 1.75 -5 0

@@ -5,10 +5,12 @@ Transform {
 			children [
 				Inline {
 					url "barrett-wam.convex/barrett-wam-wrist.wrl"
-				}			]
+				}
+			]
 		}
 		DEF boxes Inline {
 			url "boxes.wrl"
-		}	]
+		}
+	]
 }
 

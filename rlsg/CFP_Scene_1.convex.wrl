@@ -5,7 +5,8 @@ Transform {
 			children [
 				Inline {
 					url "CFP_Scene_1.convex/Robot_KR60-3_WithGripper.wrl"
-				}			]
+				}
+			]
 		}
 		DEF TestRoom Transform {
 			children [

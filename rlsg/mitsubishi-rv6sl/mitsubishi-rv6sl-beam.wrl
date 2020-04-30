@@ -59,5 +59,6 @@ Transform {
 					url "link6_beam.wrl"
 				}
 			]
-		}	]
+		}
+	]
 }

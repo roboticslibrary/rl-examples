@@ -5,10 +5,12 @@ Transform {
 			children [
 				Inline {
 					url "staeubli-tx90/staeubli-tx90.wrl"
-				}			]
+				}
+			]
 		}
 		DEF boxes Inline {
 			url "boxes.wrl"
-		}	]
+		}
+	]
 }
 

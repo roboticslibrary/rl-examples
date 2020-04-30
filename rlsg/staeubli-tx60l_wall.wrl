@@ -6,10 +6,12 @@ Transform {
 			children [
 				Inline {
 					url "staeubli-tx60l/staeubli-tx60l.wrl"
-				}			]
+				}
+			]
 		}
 		DEF wall Inline {
 			url "wall.wrl"
-		}	]
+		}
+	]
 }
 

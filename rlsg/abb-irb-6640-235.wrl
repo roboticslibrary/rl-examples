@@ -5,7 +5,8 @@ Transform {
 			children [
 				Inline {
 					url "abb-irb-6640-235/abb-irb-6640-235.wrl"
-				}			]
+				}
+			]
 		}
 	]
 }

@@ -6,10 +6,12 @@ Transform {
 			children [
 				Inline {
 					url "uman.convex/uman-lshape.wrl"
-				}			]
+				}
+			]
 		}
 		DEF wall2b Inline {
 			url "wall2b.wrl"
-		}	]
+		}
+	]
 }
 
