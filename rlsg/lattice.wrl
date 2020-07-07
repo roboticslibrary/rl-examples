@@ -1,0 +1,158 @@
+#VRML V2.0 utf8
+Transform {
+	children [
+		DEF floor Transform {
+			translation 0 0 -0.0125
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+						}
+					}
+					geometry Box {
+						size 1.5 1.5 0.025
+					}
+				}
+			]
+		}
+		DEF obstacles Transform {
+			children [
+				Transform {
+					translation -0.5 0 0
+					children [
+						DEF obstacle1 Transform {
+							children [
+								Transform {
+									translation 0 -0.25 0.25
+									children [
+										Shape {
+											appearance Appearance {
+												material Material {
+												}
+											}
+											geometry Box {
+												size 0.05 0.05 0.5
+											}
+										}
+									]
+								}
+								Transform {
+									translation 0 0.25 0.25
+									children [
+										Shape {
+											appearance Appearance {
+												material Material {
+												}
+											}
+											geometry Box {
+												size 0.05 0.05 0.5
+											}
+										}
+									]
+								}
+								Transform {
+									translation 0 0 0.5
+									children [
+										Shape {
+											appearance Appearance {
+												material Material {
+												}
+											}
+											geometry Box {
+												size 0.05 0.55 0.05
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+				Transform {
+					translation 0.5 0 0
+					children [
+						DEF obstacle2 Transform {
+							children [
+								USE obstacle1
+								Transform {
+									translation 0 0 0.25
+									rotation 1 0 0 0.785398
+									children [
+										Shape {
+											appearance Appearance {
+												material Material {
+												}
+											}
+											geometry Box {
+												size 0.05 0.707107 0.05
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+				Transform {
+					translation 0.5 0 0
+					children [
+						DEF obstacle3 Transform {
+							children [
+								USE obstacle2
+								Transform {
+									translation 0 -0.125 0.375
+									rotation 1 0 0 -0.785398
+									children [
+										Shape {
+											appearance Appearance {
+												material Material {
+												}
+											}
+											geometry Box {
+												size 0.05 0.3535534 0.05
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+				Transform {
+					translation 0.5 0 0.5
+					children [
+						USE obstacle1
+					]
+				}
+				Transform {
+					translation 0 -0.5 0
+					rotation 0 0 1 1.5707963
+					children [
+						USE obstacle1
+					]
+				}
+				Transform {
+					translation 0 -0.5 0.5
+					rotation 0 0 1 1.5707963
+					children [
+						USE obstacle3
+					]
+				}
+				Transform {
+					translation 0 0.5 0
+					rotation 0 0 1 1.5707963
+					children [
+						USE obstacle2
+					]
+				}
+				Transform {
+					translation 0 0.5 0.5
+					rotation 0 0 1 1.5707963
+					children [
+						USE obstacle1
+					]
+				}
+			]
+		}
+	]
+}
