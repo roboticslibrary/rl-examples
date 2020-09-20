@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rlplan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="rlplan.xsd">
-	<prm>
+	<rrtConCon>
 		<duration>30</duration>
 		<goal>
 			<q unit="deg">37.5</q>
@@ -31,12 +31,10 @@
 				<scene href="../rlsg/universal-robots-ur5_tables.xml"/>
 			</model>
 		</viewer>
+		<delta unit="deg">1</delta>
 		<kdtreeNearestNeighbors/>
 		<uniformSampler/>
-		<recursiveVerifier>
-			<delta unit="deg">1</delta>
-		</recursiveVerifier>
-	</prm>
+	</rrtConCon>
 	<advancedOptimizer>
 		<recursiveVerifier>
 			<delta unit="deg">1</delta>

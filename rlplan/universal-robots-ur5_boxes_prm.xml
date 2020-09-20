@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rlplan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="rlplan.xsd">
 	<prm>
-		<duration>30</duration>
+		<duration>120</duration>
 		<goal>
-			<q unit="deg">37.5</q>
-			<q unit="deg">-100.5</q>
-			<q unit="deg">-95</q>
-			<q unit="deg">-75</q>
-			<q unit="deg">-270</q>
+			<q unit="deg">90</q>
+			<q unit="deg">-180</q>
+			<q unit="deg">0</q>
+			<q unit="deg">-90</q>
+			<q unit="deg">0</q>
 			<q unit="deg">0</q>
 		</goal>
 		<model>
 			<kinematics href="../rlkin/universal-robots-ur5.xml"/>
 			<model>0</model>
-			<scene href="../rlsg/universal-robots-ur5_tables.convex.xml"/>
+			<scene href="../rlsg/universal-robots-ur5_boxes.convex.xml"/>
 		</model>
 		<start>
-			<q unit="deg">142</q>
-			<q unit="deg">-79.5</q>
-			<q unit="deg">95</q>
-			<q unit="deg">-105.5</q>
+			<q unit="deg">0</q>
+			<q unit="deg">-180</q>
+			<q unit="deg">0</q>
 			<q unit="deg">-90</q>
+			<q unit="deg">0</q>
 			<q unit="deg">0</q>
 		</start>
 		<viewer>
@@ -28,8 +28,9 @@
 			<model>
 				<kinematics href="../rlkin/universal-robots-ur5.xml"/>
 				<model>0</model>
-				<scene href="../rlsg/universal-robots-ur5_tables.xml"/>
+				<scene href="../rlsg/universal-robots-ur5_boxes.xml"/>
 			</model>
+			<swept unit="deg">100</swept>
 		</viewer>
 		<kdtreeNearestNeighbors/>
 		<uniformSampler/>
@@ -37,11 +38,4 @@
 			<delta unit="deg">1</delta>
 		</recursiveVerifier>
 	</prm>
-	<advancedOptimizer>
-		<recursiveVerifier>
-			<delta unit="deg">1</delta>
-		</recursiveVerifier>
-		<length unit="deg">15</length>
-		<ratio>0.05</ratio>
-	</advancedOptimizer>
 </rlplan>
