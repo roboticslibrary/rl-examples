@@ -12,11 +12,11 @@ DEF link2 Transform {
         Shape {
           appearance Appearance {
             material Material {
-              diffuseColor 0.752941 0.752941 0.752941
+              diffuseColor 0.4 0.4 0.4
               emissiveColor 0.000000 0.000000 0.000000
-              specularColor 0.752941 0.752941 0.752941
-              ambientIntensity 0.117647
-              shininess 0.062500
+              specularColor 0.1 0.1 0.1
+              ambientIntensity 1
+              shininess 0.1
             }
           }
           geometry IndexedFaceSet {
@@ -1046,6 +1046,7 @@ DEF link2 Transform {
       rotation -0.382863 0.840733 0.382863 1.74341
       children [
         Shape {
+          # metal
           appearance Appearance {
             material Material {
               diffuseColor 0.792157 0.819608 0.933333
@@ -1834,13 +1835,14 @@ DEF link2 Transform {
       rotation 0.57735 0.57735 -0.57735 4.18879
       children [
         Shape {
+          # blue plastic
           appearance Appearance {
             material Material {
-              diffuseColor 0.501961 0.501961 1.000000
+              diffuseColor 0.33 0.69 0.84
               emissiveColor 0.000000 0.000000 0.000000
-              specularColor 0.752941 0.752941 0.752941
-              ambientIntensity 0.117647
-              shininess 0.062500
+              specularColor 0.33 0.69 0.84
+              ambientIntensity 1
+              shininess 0.3
             }
           }
           geometry IndexedFaceSet {
@@ -2564,12 +2566,13 @@ DEF link2 Transform {
       children [
         Shape {
           appearance Appearance {
+            # dark grey paint
             material Material {
-              diffuseColor 0.752941 0.752941 0.752941
+              diffuseColor 0.4 0.4 0.4
               emissiveColor 0.000000 0.000000 0.000000
-              specularColor 0.752941 0.752941 0.752941
-              ambientIntensity 0.117647
-              shininess 0.062500
+              specularColor 0.1 0.1 0.1
+              ambientIntensity 1
+              shininess 0.1
             }
           }
           geometry IndexedFaceSet {
@@ -3599,13 +3602,14 @@ DEF link2 Transform {
       rotation 0.57735 0.57735 0.57735 2.0944
       children [
         Shape {
+          # blue
           appearance Appearance {
-            material Material {
-              diffuseColor 0.501961 0.501961 1.000000
+           material Material {
+              diffuseColor 0.33 0.69 0.84
               emissiveColor 0.000000 0.000000 0.000000
-              specularColor 0.752941 0.752941 0.752941
-              ambientIntensity 0.117647
-              shininess 0.062500
+              specularColor 0.33 0.69 0.84
+              ambientIntensity 1
+              shininess 0.3
             }
           }
           geometry IndexedFaceSet {
