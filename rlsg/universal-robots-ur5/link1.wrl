@@ -12,11 +12,11 @@ DEF link1 Transform {
         Shape {
           appearance Appearance {
             material Material {
-              diffuseColor 0.752941 0.752941 0.752941
+              diffuseColor 0.4 0.4 0.4
               emissiveColor 0.000000 0.000000 0.000000
-              specularColor 0.752941 0.752941 0.752941
-              ambientIntensity 0.117647
-              shininess 0.062500
+              specularColor 0.1 0.1 0.1
+              ambientIntensity 1
+              shininess 0.1
             }
           }
           geometry IndexedFaceSet {
@@ -1046,13 +1046,14 @@ DEF link1 Transform {
       rotation -4.37114e-008 1 4.37114e-008 1.5708
       children [
         Shape {
+          # blue plastic
           appearance Appearance {
             material Material {
-              diffuseColor 0.501961 0.501961 1.000000
+              diffuseColor 0.33 0.69 0.84
               emissiveColor 0.000000 0.000000 0.000000
-              specularColor 0.752941 0.752941 0.752941
-              ambientIntensity 0.117647
-              shininess 0.062500
+              specularColor 0.33 0.69 0.84
+              ambientIntensity 1
+              shininess 0.3
             }
           }
           geometry IndexedFaceSet {
