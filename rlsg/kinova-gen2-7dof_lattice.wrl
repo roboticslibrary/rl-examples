@@ -1,0 +1,15 @@
+#VRML V2.0 utf8
+Transform {
+	children [
+		DEF kinova-gen2-7dof Transform {
+			children [
+				Inline {
+					url "kinova-gen2-7dof/kinova-gen2-7dof.wrl"
+				}
+			]
+		}
+		DEF lattice Inline {
+			url "lattice.wrl"
+		}
+	]
+}
